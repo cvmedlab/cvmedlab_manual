@@ -1,6 +1,13 @@
 # Code of Conduct {#sec-code}
 
-> **Code of Conduct** a set of basic ground rules that participants (in our lab) are expected to follow.
+::: {.callout-caution}
+# Work in progress
+
+This section is still a work in progress and not expected to make much sense at this stage. 
+:::
+
+> **Code of Conduct**  
+> a set of basic ground rules that participants (in our lab) are expected to follow.
 
 The goal of having a code of conduct is to create an open and inclusive space for our work that helps us achieve our collective goals. Along with our lab culture/philosophy, it also provides a benchmark for self-evaluation and helps better define our identity as a community.
 
@@ -62,7 +69,7 @@ This code of conduct applies to Fay lab spaces, but if you are being harassed by
 
 To protect our team members from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
 
-The above caveats noted, we will respect confidentiality requests for the purpose of protecting victims of abuse when possible. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of the Fay lab members or the general public. We will not name harassment victims without their affirmative consent. 
+The above caveats noted, we will respect confidentiality requests for the purpose of protecting victims of abuse when possible. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of the Fay lab members or the general public. We will not name harassment victims without their affirmative consent.
 
 ### Consequences
 

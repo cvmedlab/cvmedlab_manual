@@ -1,6 +1,12 @@
 # Lab culture and philosophy {#sec-culture}
 
-> **telos**  
+::: {.callout-caution}
+# Work in progress
+
+This section is still a work in progress and not expected to make much sense at this stage. 
+:::
+
+> **telos**\
 > the purpose, end, or goal of an entity
 
 Our *telos* is truth. That means we pursue excellence in science - with the goal of finding truth foremost. But, we hold a lot of additional secondary goals and, importantly, we approach our science with a common denominator of kindness. As part of our core lab culture, we (in no particular order):
@@ -20,7 +26,7 @@ Our *telos* is truth. That means we pursue excellence in science - with the goal
 
 Though we do not expect incoming members to memorize everything, we do expect members to be aware of the group's values.
 
-## Ask for help, and share your learning 
+## Ask for help, and share your learning
 
 We are all learners, and most of our learning is done from each other. It is inefficient to struggle through problems alone. Take advantage of the team, as well as the larger GS program. Ask for and give assistance with appropriate cognizance of the value of your time and the time of the person you are asking. You are not the first or last person to encounter a problem. When you identify a problem add an issue to the [lab issues repository](www.github.com/thefaylab/lab-chat), and update it with solutions when it is resolved. Also consider writing a tutorial/blog post for inclusion in our [lab's shared resources](www.github.com/thefaylab/labhub), and share with the larger community by tweeting, leading and sharing at a lab meeting, or running a workshop (Quantfish woRkshop group, SouthCoast useR group, etc).
 
@@ -38,7 +44,7 @@ You and your colleagues work hard. Things don't always go exactly as planned. Be
 
 ## Sustain a positive, safe learning environment
 
-We're here to learn and grow as scientists. Everyone learns something for the first time at some time, and people learn in different ways. Expressing that you don't know something is OK - good, even! - this is a University after all. Nevertheless, we understand that this can make you feel vulnerable. We strive to maintain a culture that allows for and encourages this vulnerability. Community members should not be disparaged for not knowing things, and in addition, should not be disparaged for knowing things or wanting to learn. That's precisely why we're all here. 
+We're here to learn and grow as scientists. Everyone learns something for the first time at some time, and people learn in different ways. Expressing that you don't know something is OK - good, even! - this is a University after all. Nevertheless, we understand that this can make you feel vulnerable. We strive to maintain a culture that allows for and encourages this vulnerability. Community members should not be disparaged for not knowing things, and in addition, should not be disparaged for knowing things or wanting to learn. That's precisely why we're all here.
 
 ## Have an interdisciplinary (open) mindset
 
@@ -58,7 +64,7 @@ Part of our lab culture is that we are good citizens of our community, we take o
 
 ## Promote and sustain healthy work-life integration
 
-Our scientific research is not the only important thing in our lives, and publishing research is not the only mechanism by which to provide science and support our communities. We recognize the importance of our other commitments in keeping us healthy (mentally and physically) and bring our whole selves to our efforts. Try not to normalize overwork or being busy as achievement or status. Plan downtime for yourself to recuperate. 
+Our scientific research is not the only important thing in our lives, and publishing research is not the only mechanism by which to provide science and support our communities. We recognize the importance of our other commitments in keeping us healthy (mentally and physically) and bring our whole selves to our efforts. Try not to normalize overwork or being busy as achievement or status. Plan downtime for yourself to recuperate.
 
 ## Practice radical candor
 

@@ -1,3 +1,9 @@
 # Offboarding {#sec-offboarding}
 
+::: {.callout-caution}
+# Work in progress
+
+This section is still a work in progress and not expected to make much sense at this stage. 
+:::
+
 Still working on this.

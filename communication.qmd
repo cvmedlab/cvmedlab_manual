@@ -1,2 +1,7 @@
 # Communication {#sec-communication}
-More to come...
+
+::: {.callout-caution}
+# Work in progress
+
+This section is still a work in progress and not expected to make much sense at this stage. 
+:::
