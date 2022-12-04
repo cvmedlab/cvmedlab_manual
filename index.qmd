@@ -2,7 +2,7 @@
 
 The focus of our work centers around studying effectiveness and safety of cardiovascular medications as well as the cardiovascular effects of other (non-cardiovascular) medications, with a focus on observational data methods and, to a lesser extent, clinical trials. More about our group's research activity can be found on our [website](https://cvmedlab.github.io/).
 
-This lab manual is intended to provide an overview for lab members and others about how we work and our expectations for our team. It is also a space to document institutional knowledge about procedures and available resources. If you have suggestions for additions or changes, please contact [Dr. Smith](mailto:ssmith@cop.ufl.edu) or, if you're already github-savvy, make a pull request 👉 [{{< fa brands github size=lg >}}](https://github.com/cvmedlab/lab-manual/).
+This lab manual is intended to provide an overview for lab members and others about how we work and our expectations for our team. It is also a space to document institutional knowledge about procedures and available resources. If you have suggestions for additions or changes, please contact [Dr. Smith](mailto:ssmith@cop.ufl.edu) or, if you're already github-savvy, make a pull request 👉 [{{< fa brands github size=lg >}}](https://github.com/cvmedlab/cvmedlab_manual/).
 
 The spark for this book comes from a similar lab manual I found for [The Fay Lab](https://github.com/thefaylab/lab-manual), which itself stemmed from the [Openscapes Champions program](https://openscapes.org).
 
