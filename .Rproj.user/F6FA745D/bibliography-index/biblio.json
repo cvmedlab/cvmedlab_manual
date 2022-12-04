@@ -207,6 +207,31 @@
             "title": "The little SAS book: A primer",
             "title-short": "The little SAS book",
             "type": "book"
+        },
+        {
+            "ISBN": "978-3-319-19424-0",
+            "author": [
+                {
+                    "family": "Harrell",
+                    "given": "Frank E."
+                }
+            ],
+            "collection-title": "Springer series in statistics",
+            "edition": "2. ed",
+            "id": "harrell_regression_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "number-of-pages": "582",
+            "publisher": "Springer",
+            "publisher-place": "Cham",
+            "title": "Regression modeling strategies: With applications to linear models, logistic and ordinal regression, and survival analysis",
+            "title-short": "Regression modeling strategies",
+            "type": "book"
         }
     ],
     "project_biblios": [

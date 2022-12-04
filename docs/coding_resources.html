@@ -208,7 +208,7 @@ div.csl-indent {
   <li><a href="#useful-r-resources" id="toc-useful-r-resources" class="nav-link" data-scroll-target="#useful-r-resources"><span class="toc-section-number">14.2.4</span>  Useful R resources</a></li>
   </ul></li>
   <li><a href="#gitgithub" id="toc-gitgithub" class="nav-link" data-scroll-target="#gitgithub"><span class="toc-section-number">14.3</span>  Git/Github</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">14.4</span>  References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cvmedlab/lab-manual/edit/main/coding_resources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cvmedlab/lab-manual/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -344,7 +344,8 @@ Installing Packages
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>R packages are installed by typing <code>install.packages("package_name")</code> in the interactive window (or in a new script, which is then run). For example, <code>install.packages("tidyverse")</code>. You’ll sometimes see ‘dependencies’ installed as well - these are other packages that are required to run the package you’re installing. If you get questions about compiling from source, just select No unless you really need that slightly newer version.</p>
+<p>R packages are installed by typing <code>install.packages("package_name")</code> in the interactive window (or in a new script, which is then run). For example, <code>install.packages("tidyverse")</code>. You can also install multiple packages at once: <code>install.packages(c("dplyr","haven","ggplot2","stringr"))</code>.</p>
+<p>You’ll sometimes see ‘dependencies’ installed as well - these are other packages that are required to run the package(s) you’re installing. If you get questions about compiling from source, just select No unless you really need that slightly newer version.</p>
 </div>
 </div>
 <div class="callout-note callout callout-style-default callout-captioned">
@@ -363,58 +364,87 @@ Production vs.&nbsp;Development packages
 </div>
 </div>
 </div>
-<section id="data-wrangling" class="level4" data-number="14.2.3.1">
-<h4 data-number="14.2.3.1" class="anchored" data-anchor-id="data-wrangling"><span class="header-section-number">14.2.3.1</span> Data wrangling</h4>
+<section id="data-wrangling" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="data-wrangling">Data wrangling</h4>
 <p>The following packages are particularly useful for dealing with raw data as well as basic analyses:</p>
 <ul>
-<li><p><a href="https://www.tidyverse.org/">tidyverse</a> - a suite of packages that make R considerably easier to learn for the new user (in our opinion); bonus points because they’re supported by Posit (makers of R-Studio) and are constantly being improved, unlike some packages which eventually languish. We suggest installing the entire tidyverse with <code>install.packages("tidyverse")</code> but you can also install components of the tidyverse individually</p></li>
-<li><p><a href="">data.table</a></p></li>
-<li><p><a href="">labelled</a></p></li>
-<li><p>[]</p></li>
+<li><p><a href="https://www.tidyverse.org/">tidyverse</a> - a suite of packages that make R considerably easier to learn for the new user (in our opinion); bonus points because they’re supported by Posit (makers of R-Studio) and are constantly being improved, unlike some packages which eventually languish. We suggest installing the entire tidyverse with <code>install.packages("tidyverse")</code> but you can also install components of the tidyverse individually</p>
+<ul>
+<li><a href="https://haven.tidyverse.org/">haven</a> - useful functions to read in SAS files</li>
+<li><a href="https://ggplot2.tidyverse.org/">ggplot2</a> - excellent graphics program - see below.</li>
+<li><a href="https://dplyr.tidyverse.org/">dplyr</a> - data manipulation</li>
+<li><a href="https://purr.tidyverse.org/">purrr</a> - enhanced functional programming</li>
+<li><a href="https://stringr.tidyverse.org/">stringr</a> - tools for working with strings</li>
+<li><a href="https://reprex.tidyverse.org/">reprex</a> - tools for creating <strong>rep</strong>roducible <strong>ex</strong>amples</li>
+<li><a href="https://forcats.tidyverse.org/">forcats</a> - working with factors</li>
+<li>and more…</li>
+</ul></li>
+<li><p><a href="http://rdatatable.gitlab.io/data.table/">data.table</a> - an alternative to working with “tibbles” (dataframes in tidyverse), data.table offers a high-performance (fast) version of base R’s data.frame with syntax and feature enhancements; some people prefer <code>data.table</code> to tidyverse/tibbles, and once you learn the syntax (which can be a little awkward), it is a pretty useful package, particularly when working with larger datasets like we use</p></li>
+<li><p><a href="https://larmarange.github.io/labelled/">labelled</a> - If you’ve gotten enough experience with R and SAS (or SPSS), you might notice one of the distinct differences: SAS/SPSS allow for labeling variables, R does not. This package provides that functionality to R. You know what your variables are, but for the rest of us who don’t, labeling helps a lot</p></li>
+<li><p><a href="https://github.com/sfirke/janitor">janitor</a> - has some useful data cleaning functions; nothing super complicated, but it will save you some time, particularly when bringing in messier data</p></li>
+<li><p>More to come…</p></li>
 </ul>
 </section>
-<section id="graphics-tables" class="level4" data-number="14.2.3.2">
-<h4 data-number="14.2.3.2" class="anchored" data-anchor-id="graphics-tables"><span class="header-section-number">14.2.3.2</span> Graphics &amp; Tables</h4>
+<section id="graphics-tables" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="graphics-tables">Graphics &amp; Tables</h4>
 <ul>
 <li><p><a href="https://ggplot2.tidyverse.org/">ggplot2</a> - comes with tidyverse, so does not need separate installation, but will be your go-to for plotting much of what you’ll want.</p>
 <ul>
 <li>ggplot2 also has lots of very useful extension, which can be found <a href="https://exts.ggplot2.tidyverse.org/gallery/">here</a>. Some we particularly like include <a href="https://github.com/thomasp85/patchwork#patchwork">patchwork</a>, <a href="https://github.com/slowkow/ggrepel">ggrepel</a>, <a href="https://github.com/jrnold/ggthemes">ggthemes</a>, <a href="https://nanx.me/ggsci/">ggsci</a>, <a href="https://mjskay.github.io/ggdist">ggdist</a>, <a href="https://github.com/const-ae/ggsignif">ggsignif</a>, and <a href="http://www.sthda.com/english/rpkgs/survminer/">survminer</a> (there are &gt;100!)</li>
 </ul></li>
 <li><p><a href="https://plotly.com/r/getting-started/">plotly</a> - interactive graphics</p></li>
-<li><p><a href="https://gt.rstudio.com/">gt</a></p></li>
-<li><p><a href="https://jthomasmock.github.io/gtExtras/">gtExtras</a> - extension for {gt}</p></li>
-<li><p><a href="https://www.danieldsjoberg.com/gtsummary/">gtsummary</a> - extension for {gt} for creating summary tables. <strong>See Lab Docs on the CVmedLab website for an <a href="https://cvmedlab.github.io/labdocs/table1_gtsummary.html">example using gtsummary</a>.</strong></p></li>
+<li><p><a href="https://gt.rstudio.com/">gt</a> - great tables(?) - a tidyverse-syntaxed tables package that has some very nice extensions, see below; note that there are lots of other output table-oriented packages (the <a href="https://gt.rstudio.com/#how-gt-fits-in-with-other-packages-that-generate-display-tables">gt page</a> lists many of these other packages) - and you may find some of these more to your liking.</p></li>
+<li><p><a href="https://jthomasmock.github.io/gtExtras/">gtExtras</a> - extension for {gt} that adds some nifty functionality, including small plots in table rows</p></li>
+<li><p><a href="https://www.danieldsjoberg.com/gtsummary/">gtsummary</a> - extension for {gt} for creating summary tables. See Lab Docs on the CVmedLab website for an <a href="https://cvmedlab.github.io/labdocs/table1_gtsummary.html">example using gtsummary</a>.</p></li>
 </ul>
 </section>
-<section id="interactive-data-presentation" class="level4" data-number="14.2.3.3">
-<h4 data-number="14.2.3.3" class="anchored" data-anchor-id="interactive-data-presentation"><span class="header-section-number">14.2.3.3</span> Interactive data presentation</h4>
+<section id="interactive-data-presentation" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="interactive-data-presentation">Interactive data presentation</h4>
 <ul>
-<li><a href="https://shiny.rstudio.com/">shiny</a> - builds interactive web apps from R</li>
+<li><a href="https://shiny.rstudio.com/">shiny</a> - build interactive web apps and dashboards from R</li>
 </ul>
 </section>
-<section id="package-development" class="level4" data-number="14.2.3.4">
-<h4 data-number="14.2.3.4" class="anchored" data-anchor-id="package-development"><span class="header-section-number">14.2.3.4</span> Package development</h4>
+<section id="package-development" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="package-development">Package development</h4>
 <p>Packages come in all shapes and sizes and don’t have to be a set of fancy functions to be used by the R community. A common use of R packages is collating everything needed for an analysis/paper (data, notes, analytic code, +/- the paper itself). If you’re going to create packages, the following are extremely helpful:</p>
 <ul>
 <li><p><a href="https://devtools.r-lib.org/">devtools</a> - simplifies common tasks in package development (also helpful in downloading non-C-RAN packages/versions, e.g., from github)</p></li>
 <li><p><a href="https://usethis.r-lib.org/">usethis</a> - automates repetitive tasks in package development</p></li>
 </ul>
 </section>
-<section id="analysis" class="level4" data-number="14.2.3.5">
-<h4 data-number="14.2.3.5" class="anchored" data-anchor-id="analysis"><span class="header-section-number">14.2.3.5</span> Analysis</h4>
+<section id="analysis" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="analysis">Analysis</h4>
 <p>Tons of packages in this space, but if you want to stick with the tidyverse, <a href="https://www.tidymodels.org/">tidymodels</a> is a good choice.</p>
 <p>For regression modeling, Frank Harrell’s <a href="https://hbiostat.org/R/rms/">rms package</a> is good and well supported with a website.</p>
 </section>
-<section id="other-odds-and-ends" class="level4" data-number="14.2.3.6">
-<h4 data-number="14.2.3.6" class="anchored" data-anchor-id="other-odds-and-ends"><span class="header-section-number">14.2.3.6</span> Other Odds-and-Ends</h4>
+<section id="color-palettes" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="color-palettes">Color palettes</h4>
 <ul>
-<li><p><a href="http://www.dagitty.net/primer/">daggity</a> - for creating DAGs and much more</p></li>
-<li></li>
+<li><p><a href="https://github.com/cararthompson/monochromeR">monochromeR</a></p></li>
+<li><p><a href="https://github.com/cwickham/munsell/">munsell</a></p></li>
+<li><p><a href="https://github.com/EmilHvitfeldt/paletteer">paletteer</a> - most of the R color palettes floating around in space assembled in one package</p></li>
+</ul>
+</section>
+<section id="other-odds-and-ends-packages" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="other-odds-and-ends-packages">Other Odds-and-Ends Packages</h4>
+<ul>
+<li><p><a href="http://www.dagitty.net/primer/">daggity</a> - for creating DAGs and much more (if you’re using ggplot2, you may want to also check out <a href="https://ggdag.malco.io/">ggdag</a>)</p></li>
+<li><p><a href="https://hbiostat.org/R/Hmisc/">Hmisc</a> - Frank Harrell’s <code>Hmisc</code> package with lots of functionality; also works well with his R Workflow (see links below)</p></li>
 </ul>
 </section>
 </section>
 <section id="useful-r-resources" class="level3" data-number="14.2.4">
 <h3 data-number="14.2.4" class="anchored" data-anchor-id="useful-r-resources"><span class="header-section-number">14.2.4</span> Useful R resources</h3>
+<ul>
+<li><p><a href="https://r4ds.hadley.nz/">r4ds</a> - R for Data Science, by Hadley Wickham, is an excellent, free introduction to R and the tidyverse</p></li>
+<li><p><a href="https://adv-r.hadley.nz/">Advanced R</a> - A step up in complexity from r4ds (and best tackled after r4ds), but another excellent book by Hadley Wickham</p></li>
+<li><p><a href="https://ggplot2-book.org/">ggplot2 Book</a> - Excellent book, again by Wickham, that overviews ggplot2 capabilities.</p></li>
+<li><p><a href="https://hbiostat.org/bbrc/">Biostatistics for Biomedical Research</a> - online course covering lots of statistical (and more broadly, biomedical research) topics from the excellent statistician, Frank Harrell; this is more generally biostatistics-focused, but works through accompanying R code</p></li>
+<li><p><a href="https://hbiostat.org/rmsc/">Harrell’s Regression Modeling Stragies Course (RMSC)</a> - Frank Harrell’s online book/“course” that accompanies the excellent RSM textbook <span class="citation" data-cites="harrell_regression_2015">(<a href="#ref-harrell_regression_2015" role="doc-biblioref">Harrell 2015</a>)</span></p></li>
+<li><p><a href="https://www.fharrell.com/post/rflow/">Harrell’s R Workflow</a></p></li>
+<li><p><a href="https://r-pkgs.org/">R pkgs</a> - Very good book on developing R packages</p></li>
+<li><p><a href="https://www.bigbookofr.com/">Big Book of R</a> - A frequently-updated collection of (probably) every single online R text there is; probably most of this stuff will not be useful to you, but if you’re looking for something - there’s a good chance you can find it here.</p></li>
+</ul>
 </section>
 </section>
 <section id="gitgithub" class="level2" data-number="14.3">
@@ -423,8 +453,8 @@ Production vs.&nbsp;Development packages
 <li><a href="https://happygitwithr.com/">Happy Git with R</a></li>
 </ul>
 </section>
-<section id="references" class="level2" data-number="14.4">
-<h2 data-number="14.4" class="anchored" data-anchor-id="references"><span class="header-section-number">14.4</span> References</h2>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
@@ -436,6 +466,9 @@ Delwiche, Lora D., and Susan J. Slaughter. 2019. <em>The Little <span>SAS</span>
 </div>
 <div id="ref-faries_analysis_2010" class="csl-entry" role="doc-biblioentry">
 Faries, Douglas E., and SAS Institute, eds. 2010. <em>Analysis of Observational Health Care Data Using <span>SAS</span></em>. Cary, North Carolina: <span>SAS</span> Publishing.
+</div>
+<div id="ref-harrell_regression_2015" class="csl-entry" role="doc-biblioentry">
+Harrell, Frank E. 2015. <em>Regression Modeling Strategies: With Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis</em>. 2. ed. Springer Series in Statistics. Cham: Springer.
 </div>
 </div>
 </section>

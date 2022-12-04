@@ -64,6 +64,7 @@ You can download base R for free from C-RAN [here](https://cran.r-project.org/).
 
 ::: callout-caution
 # You need base R
+
 You need to install base R, even if you will use R-Studio (recommended). Otherwise, R-Studio won't do you much good.
 :::
 
@@ -88,72 +89,108 @@ There are some useful extensions for R-studio, but none are absolutely necessary
 -   [Quarto](https://quarto.org/) - useful for generating all sorts of R-markdown, including papers (yes, you could actually write your manuscript in Quarto), technical reports, websites, books (this lab manual was written with Quarto!); the beauty of R-markdown is you can weave together plain text and R code seamlessly into an output document (.html, .docx, .pdf, etc) - that means you can have all of your analysis code re-generate everything automatically any time you make a slight change to the cohort or underlying data.
     -   One 'to-do' for the lab might be to make a manuscript template which would make writing routine parts of manuscripts considerably easier 🤔
 
-
 ### R packages
 
-::: {.callout-tip}
+::: callout-tip
 # Installing Packages
 
-R packages are installed by typing `install.packages("package_name")` in the interactive window (or in a new script, which is then run). For example, `install.packages("tidyverse")`. You'll sometimes see 'dependencies' installed as well - these are other packages that are required to run the package you're installing. If you get questions about compiling from source, just select No unless you really need that slightly newer version. 
+R packages are installed by typing `install.packages("package_name")` in the interactive window (or in a new script, which is then run). For example, `install.packages("tidyverse")`. You can also install multiple packages at once: `install.packages(c("dplyr","haven","ggplot2","stringr"))`.
+
+You'll sometimes see 'dependencies' installed as well - these are other packages that are required to run the package(s) you're installing. If you get questions about compiling from source, just select No unless you really need that slightly newer version.
 :::
 
 ::: {.callout-note collapse="true"}
 # Production vs. Development packages
 
-The below listed packages are all hosted on C-RAN and can be installed with the `install.packages()` function. You may come across packages in development that you want to install, or development versions of established packages that have not been pushed to C-RAN yet. These can usually be installed from, e.g., github, using the devtools package, with something like `devtools::install_github("github_user/package_name")` and typically the package will supply a similar instruction if you find the associated webpage or github page. 
+The below listed packages are all hosted on C-RAN and can be installed with the `install.packages()` function. You may come across packages in development that you want to install, or development versions of established packages that have not been pushed to C-RAN yet. These can usually be installed from, e.g., github, using the devtools package, with something like `devtools::install_github("github_user/package_name")` and typically the package will supply a similar instruction if you find the associated webpage or github page.
 :::
 
-#### Data wrangling
+#### Data wrangling {.unnumbered}
 
 The following packages are particularly useful for dealing with raw data as well as basic analyses:
 
 -   [tidyverse](https://www.tidyverse.org/) - a suite of packages that make R considerably easier to learn for the new user (in our opinion); bonus points because they're supported by Posit (makers of R-Studio) and are constantly being improved, unlike some packages which eventually languish. We suggest installing the entire tidyverse with `install.packages("tidyverse")` but you can also install components of the tidyverse individually
 
--   [data.table]()
+    -   [haven](https://haven.tidyverse.org/) - useful functions to read in SAS files
+    -   [ggplot2](https://ggplot2.tidyverse.org/) - excellent graphics program - see below.
+    -   [dplyr](https://dplyr.tidyverse.org/) - data manipulation
+    -   [purrr](https://purr.tidyverse.org/) - enhanced functional programming
+    -   [stringr](https://stringr.tidyverse.org/) - tools for working with strings
+    -   [reprex](https://reprex.tidyverse.org/) - tools for creating **rep**roducible **ex**amples
+    -   [forcats](https://forcats.tidyverse.org/) - working with factors
+    -   and more...
 
--   [labelled]()
+-   [data.table](http://rdatatable.gitlab.io/data.table/) - an alternative to working with "tibbles" (dataframes in tidyverse), data.table offers a high-performance (fast) version of base R's data.frame with syntax and feature enhancements; some people prefer `data.table` to tidyverse/tibbles, and once you learn the syntax (which can be a little awkward), it is a pretty useful package, particularly when working with larger datasets like we use
 
--   []
+-   [labelled](https://larmarange.github.io/labelled/) - If you've gotten enough experience with R and SAS (or SPSS), you might notice one of the distinct differences: SAS/SPSS allow for labeling variables, R does not. This package provides that functionality to R. You know what your variables are, but for the rest of us who don't, labeling helps a lot
 
-#### Graphics & Tables
+-   [janitor](https://github.com/sfirke/janitor) - has some useful data cleaning functions; nothing super complicated, but it will save you some time, particularly when bringing in messier data
 
--   [ggplot2](https://ggplot2.tidyverse.org/) - comes with tidyverse, so does not need separate installation, but will be your go-to for plotting much of what you'll want. 
+-   More to come...
 
-    - ggplot2 also has lots of very useful extension, which can be found [here](https://exts.ggplot2.tidyverse.org/gallery/). Some we particularly like include [patchwork](https://github.com/thomasp85/patchwork#patchwork), [ggrepel](https://github.com/slowkow/ggrepel), [ggthemes](https://github.com/jrnold/ggthemes), [ggsci](https://nanx.me/ggsci/), [ggdist](https://mjskay.github.io/ggdist), [ggsignif](https://github.com/const-ae/ggsignif), and [survminer](http://www.sthda.com/english/rpkgs/survminer/) (there are >100!)
+#### Graphics & Tables {.unnumbered}
+
+-   [ggplot2](https://ggplot2.tidyverse.org/) - comes with tidyverse, so does not need separate installation, but will be your go-to for plotting much of what you'll want.
+
+    -   ggplot2 also has lots of very useful extension, which can be found [here](https://exts.ggplot2.tidyverse.org/gallery/). Some we particularly like include [patchwork](https://github.com/thomasp85/patchwork#patchwork), [ggrepel](https://github.com/slowkow/ggrepel), [ggthemes](https://github.com/jrnold/ggthemes), [ggsci](https://nanx.me/ggsci/), [ggdist](https://mjskay.github.io/ggdist), [ggsignif](https://github.com/const-ae/ggsignif), and [survminer](http://www.sthda.com/english/rpkgs/survminer/) (there are \>100!)
 
 -   [plotly](https://plotly.com/r/getting-started/) - interactive graphics
 
--   [gt](https://gt.rstudio.com/)
+-   [gt](https://gt.rstudio.com/) - great tables(?) - a tidyverse-syntaxed tables package that has some very nice extensions, see below; note that there are lots of other output table-oriented packages (the [gt page](https://gt.rstudio.com/#how-gt-fits-in-with-other-packages-that-generate-display-tables) lists many of these other packages) - and you may find some of these more to your liking.
 
--   [gtExtras](https://jthomasmock.github.io/gtExtras/) - extension for {gt}
+-   [gtExtras](https://jthomasmock.github.io/gtExtras/) - extension for {gt} that adds some nifty functionality, including small plots in table rows
 
--   [gtsummary](https://www.danieldsjoberg.com/gtsummary/) - extension for {gt} for creating summary tables. **See Lab Docs on the CVmedLab website for an [example using gtsummary](https://cvmedlab.github.io/labdocs/table1_gtsummary.html).**
+-   [gtsummary](https://www.danieldsjoberg.com/gtsummary/) - extension for {gt} for creating summary tables. See Lab Docs on the CVmedLab website for an [example using gtsummary](https://cvmedlab.github.io/labdocs/table1_gtsummary.html).
 
-#### Interactive data presentation
+#### Interactive data presentation {.unnumbered}
 
--   [shiny](https://shiny.rstudio.com/) - builds interactive web apps from R
+-   [shiny](https://shiny.rstudio.com/) - build interactive web apps and dashboards from R
 
-#### Package development
+#### Package development {.unnumbered}
 
 Packages come in all shapes and sizes and don't have to be a set of fancy functions to be used by the R community. A common use of R packages is collating everything needed for an analysis/paper (data, notes, analytic code, +/- the paper itself). If you're going to create packages, the following are extremely helpful:
 
 -   [devtools](https://devtools.r-lib.org/) - simplifies common tasks in package development (also helpful in downloading non-C-RAN packages/versions, e.g., from github)
 
--   [usethis](https://usethis.r-lib.org/) - automates repetitive tasks in package development 
+-   [usethis](https://usethis.r-lib.org/) - automates repetitive tasks in package development
 
-#### Analysis
+#### Analysis {.unnumbered}
 
-Tons of packages in this space, but if you want to stick with the tidyverse, [tidymodels](https://www.tidymodels.org/) is a good choice. 
+Tons of packages in this space, but if you want to stick with the tidyverse, [tidymodels](https://www.tidymodels.org/) is a good choice.
 
 For regression modeling, Frank Harrell's [rms package](https://hbiostat.org/R/rms/) is good and well supported with a website.
 
-#### Other Odds-and-Ends
+#### Color palettes {.unnumbered}
 
--   [daggity](http://www.dagitty.net/primer/) - for creating DAGs and much more
+-   [monochromeR](https://github.com/cararthompson/monochromeR)
 
--
+-   [munsell](https://github.com/cwickham/munsell/)
+
+-   [paletteer](https://github.com/EmilHvitfeldt/paletteer) - most of the R color palettes floating around in space assembled in one package 
+
+#### Other Odds-and-Ends Packages {.unnumbered}
+
+-   [daggity](http://www.dagitty.net/primer/) - for creating DAGs and much more (if you're using ggplot2, you may want to also check out [ggdag](https://ggdag.malco.io/))
+
+-   [Hmisc](https://hbiostat.org/R/Hmisc/) - Frank Harrell's `Hmisc` package with lots of functionality; also works well with his R Workflow (see links below)
 
 ### Useful R resources
+
+-   [r4ds](https://r4ds.hadley.nz/) - R for Data Science, by Hadley Wickham, is an excellent, free introduction to R and the tidyverse
+
+-   [Advanced R](https://adv-r.hadley.nz/) - A step up in complexity from r4ds (and best tackled after r4ds), but another excellent book by Hadley Wickham
+
+-   [ggplot2 Book](https://ggplot2-book.org/) - Excellent book, again by Wickham, that overviews ggplot2 capabilities.
+
+-   [Biostatistics for Biomedical Research](https://hbiostat.org/bbrc/) - online course covering lots of statistical (and more broadly, biomedical research) topics from the excellent statistician, Frank Harrell; this is more generally biostatistics-focused, but works through accompanying R code
+
+-   [Harrell's Regression Modeling Stragies Course (RMSC)](https://hbiostat.org/rmsc/) - Frank Harrell's online book/"course" that accompanies the excellent RSM textbook [@harrell_regression_2015]
+
+-   [Harrell's R Workflow](https://www.fharrell.com/post/rflow/)
+
+-   [R pkgs](https://r-pkgs.org/) - Very good book on developing R packages
+
+-   [Big Book of R](https://www.bigbookofr.com/) - A frequently-updated collection of (probably) every single online R text there is; probably most of this stuff will not be useful to you, but if you're looking for something - there's a good chance you can find it here.
 
 ## Git/Github
 
