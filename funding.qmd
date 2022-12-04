@@ -15,7 +15,7 @@ For the MS program, students are typically expected to self-fund their program.
 
 When we have grant-funded position openings in the lab, we will post these through the [lab website](https://cvmedlab.org/), [twitter account](https://twitter.com/CVmedLab/), and via other distribution feeds. Current members will be encouraged to reach out to their network to advertise the position also so that we can get the best candidates possible.
 
-### Pre-doctoral fellowships and similar
+## Pre-doctoral fellowships and similar {.unnumbered}
 
 All students are encouraged to apply for external funding through graduate scholarships. Some relevant ones include:
 
@@ -45,6 +45,6 @@ On rare occasions when post-docs are hired absent existing grant funding, post-d
 
 -   [PhRMA Foundation post-doctoral fellowships](https://www.phrmafoundation.org/awards/post-doctoral-fellowships/) -- see especially the [Health Outcomes fellowship](https://www.phrmafoundation.org/awards/post-doctoral-fellowships/value-assessment-health-outcomes/)
 
-### Travel funding
+## Travel funding
 
 Many/most of the conferences we attend offer travel grants/scholarships for students presenting research. Students are strongly encouraged to apply for these, whenever applicable. In addition, there are often local resources available for covering costs of travel, including from the [Center for Integrative Cardiovascular and Metabolic Disease](http://cicmd.center.ufl.edu/resources-2/cicmd-travel-awards-forms/), which Dr. Smith helps run.

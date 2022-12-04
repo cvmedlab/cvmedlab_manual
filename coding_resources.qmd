@@ -159,4 +159,4 @@ For regression modeling, Frank Harrell's [rms package](https://hbiostat.org/R/rm
 
 -   [Happy Git with R](https://happygitwithr.com/)
 
-## References
+## References {.unnumbered}
