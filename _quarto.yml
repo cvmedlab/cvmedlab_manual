@@ -24,15 +24,14 @@ book:
     - computing.qmd
     - data_resources.qmd
     - coding_resources.qmd
-    #- 14-other-faylab-resources.qmd
-    
+      
   page-footer:
     left: |
       <a href="https://www.cvmedlab.org/">The CVmedLab</a>
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
-  site-url: https://cvmedlab.github.io/lab-manual/
-  repo-url: https://github.com/cvmedlab/lab-manual
+  site-url: https://cvmedlab.github.io/cvmedlab_manual/
+  repo-url: https://github.com/cvmedlab/cvmedlab_manual
   repo-actions: [edit,issue]
 bibliography: bibliography.bib
 
