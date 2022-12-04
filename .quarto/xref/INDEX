@@ -1,0 +1,83 @@
+{
+  "01-intro-how-we-work.qmd": {
+    "01-intro-how-we-work.html": "4d7dbc0f"
+  },
+  "index.qmd": {
+    "index.html": "c6e84929"
+  },
+  "02-culture-philosophy.qmd": {
+    "02-culture-philosophy.html": "bc104488"
+  },
+  "03-code-of-conduct.qmd": {
+    "03-code-of-conduct.html": "738d7d87"
+  },
+  "04-onboarding.qmd": {
+    "04-onboarding.html": "2ca556a7"
+  },
+  "05-expectations.qmd": {
+    "05-expectations.html": "1920e21d"
+  },
+  "06-offboarding.qmd": {
+    "06-offboarding.html": "912ddc00"
+  },
+  "07-funding.qmd": {
+    "07-funding.html": "d7e13dde"
+  },
+  "08-communication.qmd": {
+    "08-communication.html": "07039be5"
+  },
+  "09-academics.qmd": {
+    "09-academics.html": "3790cd71"
+  },
+  "10-courses.qmd": {
+    "10-courses.html": "ed22cbb0"
+  },
+  "11-computing.qmd": {
+    "11-computing.html": "2975de4a"
+  },
+  "12-data_resources.qmd": {
+    "12-data_resources.html": "924b45fb"
+  },
+  "13-coding_resources.qmd": {
+    "13-coding_resources.html": "13c73a6b"
+  },
+  "data_resources.qmd": {
+    "data_resources.html": "e69ef6e2"
+  },
+  "intro-how-we-work.qmd": {
+    "intro-how-we-work.html": "dca5c85a"
+  },
+  "culture-philosophy.qmd": {
+    "culture-philosophy.html": "bf3d3bf1"
+  },
+  "code-of-conduct.qmd": {
+    "code-of-conduct.html": "64ad2734"
+  },
+  "onboarding.qmd": {
+    "onboarding.html": "66932eab"
+  },
+  "expectations.qmd": {
+    "expectations.html": "60045c29"
+  },
+  "offboarding.qmd": {
+    "offboarding.html": "3a4b45df"
+  },
+  "funding.qmd": {
+    "funding.html": "0b63e215"
+  },
+  "communication.qmd": {
+    "communication.html": "446ed8b6"
+  },
+  "academics.qmd": {
+    "academics.html": "8bfde716"
+  },
+  "courses.qmd": {
+    "courses.html": "fb24005d"
+  },
+  "computing.qmd": {
+    "computing.html": "e5405424"
+  },
+  "coding_resources.qmd": {
+    "coding_resources.html": "624f89b2"
+  }
+}

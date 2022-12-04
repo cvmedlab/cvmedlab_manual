@@ -1,0 +1,47 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "CVmedLab manual"
+  #author: "Steven Smith"
+  date: last-modified
+  cover-image: cover.png
+  description: "Lab manual for the CV med Lab at the UF College of Pharmacy"
+  chapters:
+    - index.qmd
+    - intro-how-we-work.qmd
+    - culture-philosophy.qmd
+    - code-of-conduct.qmd
+    - onboarding.qmd
+    - expectations.qmd
+    - offboarding.qmd
+    - funding.qmd
+    - communication.qmd
+    - academics.qmd
+    - courses.qmd
+    - computing.qmd
+    - data_resources.qmd
+    - coding_resources.qmd
+    #- 14-other-faylab-resources.qmd
+    
+  page-footer:
+    left: |
+      <a href="https://www.cvmedlab.org/">The CVmedLab</a>
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url: https://cvmedlab.github.io/lab-manual/
+  repo-url: https://github.com/cvmedlab/lab-manual
+  repo-actions: [edit,issue]
+bibliography: bibliography.bib
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - labmanual.scss
+  pdf:
+    documentclass: scrreprt
+    
+editor: visual
+

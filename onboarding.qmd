@@ -1,0 +1,45 @@
+# Onboarding {#onboarding}
+
+Welcome to the CV med Lab! First, we are excited that you have decided to join our team! We hope that these onboarding resources, guidelines, and tips will make your transition to the team, Department, College, and University seamless and enjoyable. 
+
+
+## COP/POP Web resources
+
+POP/COP related resources, forms, policies, procedures, calendars, as generally housed on, or linked from the respective websites for [POP](https://pop.pharmacy.ufl.edu/) and [COP](https://pharmacy.ufl.edu/). A couple of specific COP sites will probably be more helpful to you, including the [COP research office](https://pharmacy.ufl.edu/research/cop-research-office/) and the [COP Grad Education office](https://graduateeducation.pharmacy.ufl.edu/). 
+
+<!--## New employee and student onboarding checklists
+
+[A work in progress.](https://docs.google.com/document/d/1ETgvSJ2ccryVKiEFZPPxgGKP50OxAyPuXed-eNCgQd8/edit?usp=sharing)
+
+-   [IT Help](https://www.umassd.edu/cits/help/) for new students and staff/faculty
+-   Here, you can navigate to the "Are you new?" section and select either student or staff.
+-->
+## Individual Development/Mentoring plans
+
+Within the first few weeks of joining the program, you will learn about the IDP requirements for the COP graduate program. You should work with Dr. Smith to develop a plan outlining your short, medium, and long term goals early in year 1, and these will need to be revisited at least annually. More on individual developing plans can be found in Chapter \@ref(expectations).
+
+<!--## Timesheets
+
+(**graduate students do not need to complete timesheets**)
+
+You can access you timesheets through the [HR portal in](https://my.umassd.edu/). Navigate to Quicklaunch and click on HRDirect. You need to enter your UMassD user ID, password, and select the Dartmouth campus. If this is the first time you do this, you will also need to verify your account through DUO authorization. We recommend using the DUO app on your phone. You can choose to have push access, or send codes. After your initial setup, you can also opt to go through DUO 1/month (instead of every time you login to HRDirect).
+
+Even if you are salaried, it's still important to keep track of and submit your vacation and sick time!
+-->
+## Facilities
+
+### Office space
+
+The CVmedLab has no devoted physical lab. Most of our work is done in virtual space. POP GS students have access to shared office space in HPNP room 2###; some desks are assigned and others are reserved for temporary use. Assigned desks are coordinated by the POP graduate student representative(s). Post-docs and analysts typically have individual or shared office space on either the 2nd or 3rd floor of HPNP. Dr. Smith's office is HPNP 3316. 
+
+*Note that we will soon be moving to the new Data Science building, in which we'll have more space, including devoted work stations for all GS students.*
+
+Lab meetings are currently held in shared conference rooms (usually HPNP 2306 or 2309).
+
+### Building & room access
+
+Access to the HPNP building is via GatorOne. Office space is keyed, and you should get a key for accessing the shared POP GS office. The same key allows access to the shared conference rooms.  
+
+### Parking and transportation:
+
+Parking on campus is less than optimal, as spaces are limited, fairly expensive, and particularly for students, not very close to HPNP. Most students bus, bike, or walk to campus. Full details for campus parking policies and procedures are on the [TAPS webpage](https://taps.ufl.edu/). 
