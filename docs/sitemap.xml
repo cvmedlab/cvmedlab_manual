@@ -1,75 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cvmedlab.github.io/lab-manual/index.html</loc>
-    <lastmod>2022-12-04T17:53:48.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/intro-how-we-work.html</loc>
-    <lastmod>2022-12-04T17:54:44.035Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/culture-philosophy.html</loc>
-    <lastmod>2022-12-04T17:53:47.232Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/code-of-conduct.html</loc>
-    <lastmod>2022-12-04T17:54:44.843Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/onboarding.html</loc>
-    <lastmod>2022-12-04T17:54:45.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/expectations.html</loc>
-    <lastmod>2022-12-04T17:53:47.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/offboarding.html</loc>
-    <lastmod>2022-12-04T17:53:47.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/funding.html</loc>
-    <lastmod>2022-12-04T17:53:47.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/communication.html</loc>
-    <lastmod>2022-12-04T17:53:47.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/academics.html</loc>
-    <lastmod>2022-12-04T17:53:47.238Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/courses.html</loc>
-    <lastmod>2022-12-04T17:53:47.239Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/computing.html</loc>
-    <lastmod>2022-12-04T17:53:47.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/data_resources.html</loc>
-    <lastmod>2022-12-04T17:53:47.241Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/coding_resources.html</loc>
-    <lastmod>2022-12-04T17:53:47.243Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cvmedlab.github.io/lab-manual/CVmedLab-Manual.pdf</loc>
-    <lastmod>2022-12-04T17:53:46.953Z</lastmod>
-  </url>
-  <url>
     <loc>https://cvmedlab.github.io/cvmedlab_manual/index.html</loc>
-    <lastmod>2022-12-04T17:57:21.343Z</lastmod>
+    <lastmod>2022-12-07T19:42:07.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/intro-how-we-work.html</loc>
+    <lastmod>2022-12-07T19:42:08.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/culture-philosophy.html</loc>
+    <lastmod>2022-12-07T19:42:06.027Z</lastmod>
   </url>
   <url>
     <loc>https://cvmedlab.github.io/cvmedlab_manual/code-of-conduct.html</loc>
-    <lastmod>2022-12-04T17:57:22.792Z</lastmod>
+    <lastmod>2022-12-07T19:42:06.028Z</lastmod>
   </url>
   <url>
     <loc>https://cvmedlab.github.io/cvmedlab_manual/onboarding.html</loc>
-    <lastmod>2022-12-04T17:57:23.980Z</lastmod>
+    <lastmod>2022-12-07T19:42:06.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/expectations.html</loc>
+    <lastmod>2022-12-07T19:42:06.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/offboarding.html</loc>
+    <lastmod>2022-12-07T19:42:06.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/funding.html</loc>
+    <lastmod>2022-12-07T19:42:06.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/communication.html</loc>
+    <lastmod>2022-12-07T19:42:06.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/academics.html</loc>
+    <lastmod>2022-12-07T19:42:06.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/courses.html</loc>
+    <lastmod>2022-12-07T19:42:06.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/computing.html</loc>
+    <lastmod>2022-12-07T19:42:06.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/data_resources.html</loc>
+    <lastmod>2022-12-07T19:42:06.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/coding_resources.html</loc>
+    <lastmod>2022-12-07T19:42:06.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cvmedlab.github.io/cvmedlab_manual/CVmedLab-Manual.pdf</loc>
+    <lastmod>2022-12-07T19:42:05.949Z</lastmod>
   </url>
 </urlset>

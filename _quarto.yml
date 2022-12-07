@@ -42,6 +42,3 @@ format:
       - labmanual.scss
   pdf:
     documentclass: scrreprt
-    
-editor: visual
-

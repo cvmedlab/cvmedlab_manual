@@ -16,9 +16,9 @@ Other platforms, for example, [SPSS](https://www.ibm.com/products/spss-statistic
 
 As noted above, SAS is the primary platform used in our program. We use SAS fairly extensively in our lab's work as well, in part because it's particularly good at working with massive datasets. SAS is available on all of our Virtual Machines/servers, and UF offers discounted annual licenses for SAS (as well as a free cloud-based SAS through [UFApps](https://info.apps.ufl.edu/)) for enrolled students. More info on individual licenses can be found [here](https://software.ufl.edu/software-listings/sas-student-licensing.html) for students and [here](https://software.ufl.edu/software-listings/sas.html) for faculty/postdocs/staff. Note that staff/postdocs should get their license through the Department by contacting Carl Henriksen.
 
-Some folks like working in base SAS by itself. Others prefer SAS Enterprise Guide, which wraps around base R and provides some additional functionality. Try each, and see what you prefer.
+Some folks like working in base SAS by itself. Others prefer SAS Enterprise Guide, which wraps around base SAS and provides some additional functionality. Try each, and see what you prefer.
 
-One downside to SAS is it does not run natively on MacOS, so if you have a Mac, you'll need Parallels, VMware, or similar hardware virtualization to create a windows drive, if you want SAS on your own system.
+One downside to SAS is it does not run natively on MacOS, so if you have a Mac, you'll need Parallels, VMware, or similar hardware virtualization to create a windows drive, if you want SAS on your own system. 
 
 ### Books
 
