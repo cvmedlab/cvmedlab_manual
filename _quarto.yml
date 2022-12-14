@@ -21,6 +21,8 @@ book:
     - communication.qmd
     - academics.qmd
     - courses.qmd
+    - conferences.qmd
+    - papers.qmd
     - computing.qmd
     - data_resources.qmd
     - coding_resources.qmd

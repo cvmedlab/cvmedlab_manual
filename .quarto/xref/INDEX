@@ -79,5 +79,11 @@
   },
   "coding_resources.qmd": {
     "coding_resources.html": "624f89b2"
+  },
+  "conferences.qmd": {
+    "conferences.html": "ca7181c3"
+  },
+  "papers.qmd": {
+    "papers.html": "20149faf"
   }
 }
