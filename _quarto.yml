@@ -3,10 +3,9 @@ project:
   output-dir: docs
   resources: 
     - CNAME
-    - assets/*.png
-    - assets/*.svg
-    - assets/templates/*
-
+    - /assets/*.svg
+    - /assets/*.png
+    - /templates/*
 book:
   title: "CVmedLab Manual"
   #author: "Steven Smith"
@@ -31,7 +30,6 @@ book:
     - computing.qmd
     - data_resources.qmd
     - coding_resources.qmd
-      
   page-footer:
     left: |
       <a href="https://www.cvmedlab.org/">The CVmedLab</a>
@@ -40,9 +38,7 @@ book:
   site-url: https://cvmedlab.github.io/cvmedlab_manual/
   repo-url: https://github.com/cvmedlab/cvmedlab_manual
   repo-actions: [edit,issue]
-
 bibliography: bibliography.bib
-
 format:
   html:
     theme: 
