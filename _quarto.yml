@@ -13,6 +13,7 @@ book:
   date: last-modified
   cover-image: cover.png
   description: "Lab manual for the CV med Lab at the UF College of Pharmacy"
+  downloads: pdf
   chapters:
     - index.qmd
     - intro-how-we-work.qmd
@@ -39,6 +40,7 @@ book:
   site-url: https://cvmedlab.github.io/cvmedlab_manual/
   repo-url: https://github.com/cvmedlab/cvmedlab_manual
   repo-actions: [edit,issue]
+
 bibliography: bibliography.bib
 
 format:

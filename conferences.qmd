@@ -24,7 +24,7 @@ Submitting abstracts and presenting at conferences (research meetings) is an imp
 These are grouped somewhat arbitrarily, but may be helpful in thinking about what the message of a potential abstract is likely to be. Here's the tl;dr, with additional details below.
 
 | Locality of Meeting | Meeting/Conference                                                 | Meeting Month | Abstract Due Month (Approx.) | Clinical or Methods |
-|--------------|----------------|--------------|--------------|--------------|
+|---------------|---------------|---------------|---------------|---------------|
 | Local               | COP Research Showcase                                              | February      | December                     | Both                |
 | Local               | COM Celebration of Research                                        | February      | December                     | Both                |
 | Local               | CICMD Annual Research Showcase                                     | May           | March                        | Both                |
@@ -100,7 +100,7 @@ There are a million other meetings that might be of interest to you and/or relev
 
 -   [AcademyHealth](https://academyhealth.org/ARM) (somewhat more HSR and health policy-focused)
 
-The above is by no means a comprehensive list. If you learn of others that may be interest to the group, please add them by clicking the Edit this page github link at the bottom of the right menu. 
+The above is by no means a comprehensive list. If you learn of others that may be interest to the group, please add them by clicking the Edit this page github link at the bottom of the right menu.
 
 ## Poster Templates
 
@@ -108,7 +108,7 @@ So you got your abstract accepted - congrats! The UFCOP and CoDES center have br
 
 But, before you choose a poster template, consider whether we need to coordinate with others presenting at the same meeting:
 
-```{mermaid}
+``` {mermaid}
 flowchart TB
   A[Other POP/CoDES members presenting?] --> B((Yes))
   B --> C[Other CVmedLab members presenting?]
