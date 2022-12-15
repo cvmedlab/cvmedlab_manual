@@ -1,7 +1,11 @@
 project:
   type: book
   output-dir: docs
-  resources: CNAME
+  resources: 
+    - CNAME
+    - assets/*.png
+    - assets/*.svg
+    - assets/templates/*
 
 book:
   title: "CVmedLab Manual"
