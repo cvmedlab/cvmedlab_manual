@@ -369,5 +369,54 @@
     "title": "16  Coding Resources",
     "section": "References",
     "text": "References\n\n\n\n\nAllison, Paul D. 2010. Survival Analysis Using SAS: A Practical Guide. 2. ed. Cary, NC: SAS Press.\n\n\nDelwiche, Lora D., and Susan J. Slaughter. 2019. The Little SAS Book: A Primer. Sixth edition. Cary, NC: SAS Institute.\n\n\nFaries, Douglas E., and SAS Institute, eds. 2010. Analysis of Observational Health Care Data Using SAS. Cary, North Carolina: SAS Publishing.\n\n\nHarrell, Frank E. 2015. Regression Modeling Strategies: With Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis. 2. ed. Springer Series in Statistics. Cham: Springer."
+  },
+  {
+    "objectID": "communication.html#curriculum-vitae",
+    "href": "communication.html#curriculum-vitae",
+    "title": "9  Communication",
+    "section": "9.1 Curriculum Vitae",
+    "text": "9.1 Curriculum Vitae\nKeep your CV up to date, ideally as things happen (easier to remember right away than once a year, etc..). We share our CVs within the group in the CVmedLab Dropbox Folder (ask Dr. Smith if you don’t have access), both to give each other ideas about what to include, but also having these in one place makes it easier for Dr. Smith and others to reference information from them when needed.\nThere’s no universal approach to CVs, and your CV will change over time, as you gain experience, and as the emphasis of your career changes. The UF Career Center has some guidance for constructing your CV, but don’t feel like it’s absolutely necessary to follow their templates. The important thing is that it’s well-organized, clean (not cluttered), and makes use of white space. Finally, be careful about how much personal information you put on there, as your CV will be shared beyond those who you specifically send it to. You can always supplement personal information in an email or job application, but you probably don’t want your home address or cell phone # out there for everyone to see. If you feel like you need a number, sign up for a Google Voice number that will mask your real cell number."
+  },
+  {
+    "objectID": "communication.html#orcid",
+    "href": "communication.html#orcid",
+    "title": "9  Communication",
+    "section": "9.2 ORCiD",
+    "text": "9.2 ORCiD\nBefore you submit your first paper, you should set up an ORCiD, which is a persistent digital identifier for you. More importantly, many/most journals will allow you to link your ORCiD to your paper, so that you have a persistent record of all your published papers, and (particularly if you share a name with others), it allows you to distinguish yourself from other researchers of the same or similar name."
+  },
+  {
+    "objectID": "communication.html#pubmed-profile",
+    "href": "communication.html#pubmed-profile",
+    "title": "9  Communication",
+    "section": "9.3 PubMed Profile",
+    "text": "9.3 PubMed Profile\nOnce you have your first publication in a peer-reviewed journal, you should set up a PubMed profile. With this account, you can track publications and add them to your PubMed bibliography, a persistent list of all your publications. PubMed also has a nifty Biosketch tool, for when you need to start creating Biosketches."
+  },
+  {
+    "objectID": "communication.html#google-scholar-profiles",
+    "href": "communication.html#google-scholar-profiles",
+    "title": "9  Communication",
+    "section": "9.4 Google Scholar profiles",
+    "text": "9.4 Google Scholar profiles\nHaving a Google Scholar profile is a very easy way to curate your web presence and have a place where people can find you and your published papers and reports.\nWe recommend everyone sets up a Google Scholar profile as soon as they have a paper or technical report. It takes about 5-10 minutes to set up, and one advantage is that Google Scholar self-updates and will add your papers and citations as you publish and people use your work. This is a really easy step to creating a web presence without having to set up a website. Note though that you need to check your profile periodically, as Google attributes articles to you incorrectly fairly often, particularly if you have a common name."
+  },
+  {
+    "objectID": "communication.html#personal-websites",
+    "href": "communication.html#personal-websites",
+    "title": "9  Communication",
+    "section": "9.5 Personal Websites",
+    "text": "9.5 Personal Websites\n\n9.5.1 Why have your own website?\n\nPeople will Google you. They might as well see what you want them to.\nGive people an easy way to find you and your work.\nIt will set you apart from the myriad other researchers who just have a (often half-baked) LinkedIn profile.\n\nOne way to do this is a personal website. This doesn’t have to be extensive, but can be a good way to curate your web presence.\nThere are heaps of tools out there to create and publish websites. Our recommendation is to choose something that it is easy to update, and fun / interesting for you to use. Many good options are free.\nSome options for creating sites include:\n\nGithub (what this website uses!)\nGoogle Sites\nWeebly\nSquarespace\nWordPress\nWix\n\n\n\n9.5.2 What should you include?\nUltimately this is up to you and how you would like to present yourself and your work. But some common things you could include are:\n\nCV or Biosketch\nResearch interests/overview/expertise\nProjects, including your roles\nPublications\nBlog posts\nContact info\n\nAn example website (though many amazing others exist and you should check those out): Dr. Smith’s website on github made with Quarto.\nIf you create your own, please let Dr. Smith know so he can link to it as well."
+  },
+  {
+    "objectID": "communication.html#twitter-or-similar",
+    "href": "communication.html#twitter-or-similar",
+    "title": "9  Communication",
+    "section": "9.6 Twitter or Similar",
+    "text": "9.6 Twitter or Similar\nTwitter is (or at least, was) a great tool for interacting with others about your science. It is also a great platform for learning about new research and papers, finding out about jobs and fellowships, learning and discussing methods, discussing topics about how we do science, professional development, mental health and expectations around science and graduate school, and is a great venue for bringing ones whole self to the science. etc. Most of us have our own personal Twitter accounts and use them to varying degress. Everyone in the lab can post to the lab Twitter account too. Ask Dr. Smith if you are interested in doing a takeover of CVmedLab account for a week (which could also be a chance to dip your toe in to Twitter if you don’t use it).\nIn addition to twitter, some users prefer Mastodon, which has some similarities to Twitter, but also some significant differences. The biggest difference is that there’s a lot of different iterations of Mastodon, depending on your interest. For example, Fosstodon has a lot of data science, statistics, and other data-driven researchers."
+  },
+  {
+    "objectID": "communication.html#other-social-media",
+    "href": "communication.html#other-social-media",
+    "title": "9  Communication",
+    "section": "9.7 Other Social Media",
+    "text": "9.7 Other Social Media\n[Link to papers on social media in fisheries ]\nAs you know, there are many social media platforms, and many (all?) of these are being used in some way for science communication. This includes but not limited to:\n\nTwitter\nInstagram\nFacebook\nLinkedIn\nTikTok\nYouTube\nResearchGate\n\nAll have a different purpose and type of engagement. Think deliberately about how (and if) you want to use these tools. Using social media as part of your science communication portfolio can be useful and is popular, but it is not a requirement to be a successful scientist. And, keep in mind, these can often be deleterious to your mental health. Use them wisely, if at all."
   }
 ]
