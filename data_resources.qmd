@@ -79,6 +79,8 @@ There's much too much to make this a comprehensive list, but here are some addit
 
 The CDC curates a number of valuable datasets that are relatively easy to access and generally offer cleaned, curated datasets that are analysis-ready. Some common ones we use/see in our field include:
 
+-   [All of Us](https://www.researchallofus.org/) - longitudinal data (EHR, biomedical specimens, and surveys) from >500k individuals (eventually 1M patients)
+
 -   [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm) - a complex survey design that is completed every 2 years and allows for inference about what is happening across the non-instutitionalized U.S. population
 
 -   [National Ambulatory Medical Care Survey (NAMCS)](https://www.cdc.gov/nchs/ahcd/index.htm) - Data provided by *providers* (not patients) about patient visits in a single week of the year; allows for inference about what is happening at outpatient visits in the U.S.

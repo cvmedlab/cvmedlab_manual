@@ -17,7 +17,7 @@ When we have grant-funded position openings in the lab, we will post these throu
 
 ## Pre-doctoral fellowships and similar {.unnumbered}
 
-All students are encouraged to apply for external funding through graduate scholarships. Some relevant ones include:
+All students are encouraged to apply for external funding through graduate scholarships. This is an important experience: being able to succinctly define and support your research proposal is a critical skill to gain. But, in addition to that, there is financial incentive for you: The COP gives you a sizable (several thousand) lump sum cash bonus if you are awarded the fellowship. Here are some relevant fellowship opportunities for our group:
 
 -   [NIH F31](https://researchtraining.nih.gov/programs/fellowships/F31) pre-doctoral grants `r bs_button("U.S. citizens only", button_type = "default", button_size = "small")`
 
