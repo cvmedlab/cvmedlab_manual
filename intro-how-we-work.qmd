@@ -8,12 +8,16 @@ We do rigorous quantitative and epidemiologic science to support decision-making
 
 Our quantitative work is based on sound design principles supported by statistical thinking, using evidence-based approaches to compare among alternatives for study designs and analytic options.
 
-See the next chapter for more detail on our lab culture and philosophy. We are motivated heavily by the following two papers - which provide a blueprint for how we think about the way we do our work:
+See the next chapter for more detail on our lab culture and philosophy. We are motivated by the following two papers - which provide a blueprint for how we think about the way we do our work:
 
 -   Our path to better science in less time using open data science tools [@lowndes_our_2017]
 -   Good enough practices in scientific computing [@wilson_good_2017]
 
-\[To come: recommended reading list\]
+## Recommended Reading List
+
+-   [Core Concepts in Pharmacoepidemiology](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1099-1557.review-series-core-concepts-pharmacoepidemiology) - a series of papers, published in PDS, which covers critical methodologic concepts in our area
+
+-   More to come
 
 ## Meetings
 
