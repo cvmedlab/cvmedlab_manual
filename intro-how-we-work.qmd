@@ -17,11 +17,23 @@ See the next chapter for more detail on our lab culture and philosophy. We are m
 
 -   [Core Concepts in Pharmacoepidemiology](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1099-1557.review-series-core-concepts-pharmacoepidemiology) - a series of papers, published in PDS, which covers critical methodologic concepts in our area
 
--   More to come
+-   [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) - an excellent (though dense) online book, by Miguel Hernan and Jamie Robins
 
 ## Meetings
 
-The lab has two types of meetings: **lab meetings** and **1-on-1s** with Dr. Smith
+The lab has three types of meetings: **project meetings**, **lab meetings** and **1-on-1s** with Dr. Smith
+
+### Project meetings
+
+-   **When we meet**: Depends on the project, but a typical schedule is half an hour every week or 1 hour every other week. The specific day/time may change from semester to semester, depending on schedules of those involved.
+
+-   **How we meet**: In person primarily, but supplemented with Zoom for those unable to make it to campus for a particular meeting. 
+
+-   **What we discuss**: Project goals, progress, barriers, etc.. These are exclusively research-related discussions, focused on the specific project. Content changes over time, as the project matures. 
+
+-   **Who decides what we discuss**: The project lead, in conjunction with Dr. Smith and/or other collaborators. Typically our projects fund at least one student, and that team member designated by Dr. Smith serves as the project lead and coordinates the discussion topics for each meeting. Others engaged in the project should send discussion topics to them, or add to the agenda directly that is maintained on the project-specific channel in CVmedLab Teams.
+
+-   **What you should expect**: If you're engaged in the project, you should expect to present/discuss regularly. You should also expect to contribute to discussions - we all have a unique background and set of experiences that can contribute meaningful insight to the discussion of the project. 
 
 ### Lab meetings
 
@@ -55,17 +67,17 @@ It is useful to have standard ways of sharing things. These don't have to be fol
 
 Taking a project-based approach to organizing your work makes it easier to share and solicit feedback from others, as things tend to be self-contained. Try to keep only 1 working instance of material, and use some form of version control to facilitate this (see recommendations in the paper [@wilson_good_2017] linked above).
 
-Project management tools in Github are a good way to record and document questions on analyses, particularly if you're working in [R](https://cran.r-project.org/) and/or with analytic datasets that can be posted publicly. Use 'Issues' on github repositories for project-related tasks and problems. Unfortunately, that doesn't work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Teams/Sharepoint (or, less preferably, Dropbox) for each project to record this history, much like you would a lab notebook.
+Project management tools in Github are a good way to record and document questions on analyses, particularly if you're working in [R](https://cran.r-project.org/) and/or with analytic datasets that can be posted publicly. Use 'Issues' on github repositories for project-related tasks and problems. Unfortunately, that doesn't work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Dropbox (or Teams/Sharepoint) for each project to record this history, much like you would a lab notebook.
 
 ### Code
 
-Code can be shared in the virtual machines, or alternatively through Teams, Dropbox, or Github repositories. For specific questions on problems, please try to create a [reprex](https://reprex.tidyverse.org/) (minimal **rep**roducible **ex**ample). Ensure that others can run and interact with the material being shared.
+Code can be shared in the virtual machines, or alternatively through Teams, Dropbox, or Github repositories. For specific questions on problems, please try to create a [reprex](https://reprex.tidyverse.org/) (minimal **rep**roducible **ex**ample) in R, or similar in SAS. Ensure that others can run and interact with the material being shared if you want help working through kinks.
 
 ### Documents/Writing
 
-Manuscripts and similar text documents can be created/shared in [Quarto](https://quarto.org/)/R Markdown, if you're particularly motivated, or alternatively, in Dropbox or Teams. Quarto/R Markdown offer the advantage of being easily/quickly reproducible any time the underlying data change (e.g., w/o having to retype all the particular data points, re-do Tables, etc..). Dropbox allows for collaborative writing, and has the advantage of there only ever being one version (as opposed to files that are sent around via email). Teams/Sharepoint is also acceptable. Email is the least preferred approach for within-team collaboration, and should really be reserved (if needed) for getting comments from collaborators outside of our team. Word documents should always have your last name as the first part of the file name (please no "mythesis.doc").
+Manuscripts and similar text documents can be created/shared in [Quarto](https://quarto.org/)/R Markdown, if you're particularly motivated, or alternatively, in Dropbox or Teams. Quarto/R Markdown offer the advantage of being easily/quickly reproducible any time the underlying data change (e.g., w/o having to retype all the particular data points, re-do Tables, etc..). Dropbox allows for collaborative writing, and has the advantage of there only ever being one version (as opposed to files that are sent around via email). Teams/Sharepoint is also acceptable. Email is the least preferred approach for within-team collaboration, and should really be reserved (if needed) for getting comments from collaborators outside of our team. Word documents should always have your last name as the first part of the file name (please no "mythesis.doc" - these invariably get lost in the shuffle).
 
-We maintain a lab Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and advertised on Twitter by the [\@UFCoDES](https://twitter.com/UFCoDES/) and [\@CVmedLab](https://twitter.com/CVmedLab/) accounts.
+We maintain a lab Dropbox, as well as Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and advertised on Twitter by the [\@UFCoDES](https://twitter.com/UFCoDES/) and posted on the [CVmedLab](https://cvmedlab.org) News section.
 
 ## Shared lab resources
 
@@ -75,7 +87,7 @@ Where to find shared resources:
 
 -   GitHub: [CVmedLab](https://github.com/cvmedlab) is the organizational GitHub account for the lab
 
--   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see section \ref{#resources} for other useful resources
+-   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see section \ref{#sec-coding} for other useful resources
 
 -   Website: Take a look at the lab website, most of its information is duplicated in one of the above resources: <http://www.cvmedlab.org/>
 
