@@ -1,10 +1,5 @@
 # Code of Conduct {#sec-code}
 
-::: {.callout-caution}
-# Work in progress
-
-This section is still a work in progress and not expected to make much sense at this stage. 
-:::
 
 > **Code of Conduct**  
 > a set of basic ground rules that participants (in our lab) are expected to follow.
@@ -13,90 +8,62 @@ The goal of having a code of conduct is to create an open and inclusive space fo
 
 **We expect all lab members to adhere to the policies and guidelines outlined here.**
 
-Additional information and resources can be found in the [UF Student Conduct Code and Honor Code](https://regulations.ufl.edu/wp-content/uploads/2021/12/4-040_2021-12-06.pdf) (fair warning, it's long, but does have some important stuff in there).
-
-(https://sccr.dso.ufl.edu/process/student-conduct-code/).
+Additional information and resources can be found in the [UF Student Conduct Code and Honor Code](https://policy.ufl.edu/regulation/4-040/) (fair warning, it's long, but does have some important stuff in there).
 
 ## Short version
 
-The CVmedLab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, or religion. We do not tolerate harassment of participants in any form.
+The CVmedLab is dedicated to providing a harassment-free experience for everyone, regardless of age, race, or religion, sex, gender identity and expression, sexual orientation, disability, physical appearance, and so on. We do not tolerate harassment of members in any form. Everyone's here to learn and hopefully succeed, and everyone's worthy of respect.
 
 This code of conduct applies to all lab spaces and interactions, including group and individual meetings (face to face and remote), workshops, social events, email correspondence, and web channels and code repositories, both online and off. Anyone who violates this code of conduct may be sanctioned and referred to the university's academic policies.
 
 ## Longer version
 
-To do
+All members of the CVmedLab are expected to:
 
-<!--
-The Fay lab is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of group members or others in our larger communities in any form. Bullying is unwanted, aggressive behavior that involves a real or perceived power imbalance. The [University of Massachusetts Dartmouth's Equal Opportunity and Anti-Harassment policies, complaint procedures and form](https://www.umassd.edu/media/umassdartmouth/eeo/pdfs/Complaint_Procedures_and_Form_Revised_September_2017.pdf) provides definitions and examples of harassment and sexual harassment.
+* Cultivate your curiosity and creativity. Engage with literature. Go to talks. Hone your interests (which can differ from others'). Develop expertise.
 
-This code of conduct applies to all Fay lab spaces, including group and individual meetings (face to face and remote), workshops, social get togethers, email correspondence, and web channels and code repositories, both online and off. Anyone who violates this code of conduct may be sanctioned and referred to the School's and university's academic policies.
+* Conduct your research with openness and integrity.
 
-Some Fay lab spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
+* Represent the lab with pride, and show respect for others; you are now an ambassador for the lab as well as a member – our reputation will be formed in part by how you interact with our colleagues.
 
-Harassment includes:
+* Participate in lab group functions; this means paying attention, asking questions, offering feedback, and using phones and computers only for work that is directly related to the meeting at hand.
 
--   Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion.\
--   Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
--   Deliberate misgendering or use of 'dead' or rejected names.
--   Gratuitous or off-topic sexual images or behaviour in spaces where they're not appropriate.
--   Physical contact and simulated physical contact (eg, textual descriptions like "*hug*" or "*backrub*") without consent or after a request to stop.
--   Threats of violence.
--   Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.
--   Deliberate intimidation.
--   Stalking or following.
--   Harassing photography or recording, including logging online activity for harassment purposes.
--   Sustained disruption of discussion.
--   Unwelcome sexual attention.
--   Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
--   Continued one-on-one communication after requests to cease.
--   Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse.
--   Publication of non-harassing private communication.
+* Maintain and treat all lab equipment and space with care; if we are running low on a necessary supply, if software licenses are set to expire, if computers need updating, etc., let Dr. Smith know. Please help to keep shared meeting spaces clean and organized.
+* Show respect for others in the DSIT building; keep noise in the hallways to a minimum, make sure to close/lock doors, etc.
+* Follow all guidelines for research with human participants laid out by the UF Institutional Review Board; be careful with data and ensure that data protections are maintained - we are fortunate to have access to the data we have and don't want to jeopardize that access.
 
-The Fay lab prioritizes marginalized people's safety over privileged people's comfort. The PI (Gavin Fay) reserves the right not to act on complaints regarding:
+Graduate students in the CVmedLab are expected to:
 
--   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
--   Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."
--   Communicating in a 'tone' you don't find congenial
--   Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
+* Read through the [lab onboarding material](https://labmanual.cvmedlab.org/).
 
-### Reporting
+* Commit to a goal of at least five first-authored publications during your time in graduate school (including your dissertation).
 
-If you are being harassed by a member of the Fay lab, notice that someone else is being harassed, or have any other concerns, please contact the PI, Dr. Gavin Fay, at [gfay\@umassd.edu](mailto:gfay@umassd.edu). If you do not wish to contact Dr. Fay, please contact Department Chair Dr. Steve Cadrin [scadrin\@umassd.edu](mailto:scadrin@umassd.edu) and/or SMAST Assistant Dean Mike Marino [mmarino\@umassd.edu](mailto:mmarino@umassd.edu). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+* Seek out fellowship/grant/award proposals and apply for those for which you are a good fit. Keep in mind that providing letters of recommendation and feedback on drafts take time and effort on the part of those writing them; do not apply for opportunities for which you do not meet the requirements.
 
-Lab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Massachusetts' policies and/or the laws of the Commonwealth of Massachusetts' should seek assistance from a supervisor or an HR representative. [Information about the University of Massachusetts Dartmouth's Equal Opportunity and Anti-Harassment policies, complaint procedures and form](https://www.umassd.edu/media/umassdartmouth/eeo/pdfs/Complaint_Procedures_and_Form_Revised_September_2017.pdf).
+* Present your work at one conference per year (discuss with Dr. Smith funding to attend such meetings).
 
-**Confidentiality:** Please remember that by way of his position at the university, Dr. Fay is a mandated reporter under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr. Fay, but please keep this in mind when doing so. Gavin will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. If you would prefer to discuss incidents of harassment that fall under Title IX with a confidential source, you can contact [David Gomes, UMass Dartmouth Director of Diversity and Inclusion](mailto:david.gomes.eeo@umassd.edu).
+* Be familiar with and meet the deadlines and benchmarks laid out by the department and/or the COP Grad Programs office. Meeting these deadlines is your responsibility.
 
-This code of conduct applies to Fay lab spaces, but if you are being harassed by a member of the Fay lab or another member of the SMAST community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Fay lab members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Fay lab based on their past behavior, including behavior outside Fay lab spaces and behavior towards people who are not in the Fay lab. The [University Counseling Center](http://www.umassd.edu/counseling/) provides a range of services to help students develop improved coping skills to address emotional, interpersonal and academic concerns.
+* Manage study design, data analysis, and other concrete research challenges
 
-To protect our team members from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
+* Look for answers in the literature
 
-The above caveats noted, we will respect confidentiality requests for the purpose of protecting victims of abuse when possible. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of the Fay lab members or the general public. We will not name harassment victims without their affirmative consent.
+* Look for internet resources 
 
-### Consequences
+* Solicit advice from your lab mates
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+* Seek advice from Dr. Smith, who is always happy to discuss issues but it is in everyone's best interest if you work on the problem yourself first
 
-If a participant engages in harassing behavior, Dr. Fay may take any action they deem appropriate, which includes referral to the Department Chair and Dean's Office under the SMAST policy, and also including expulsion from all Fay lab spaces.
+* If we’re still struggling, we’ll go outside of the lab for advice, but please discuss w/ Dr. Smith first.
 
-### Additional resources
+* Share your expertise, experience, and materials with others working in the lab. There are far greater rewards for being generous with your time and knowledge than for keeping things to yourself in an attempt to prevent others from getting ahead.
 
-Other [University of Massachusetts Board of Trustees and University documents](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/):
+* Share responsibility for mentoring more junior students working in the lab. As you advance in the program, mentoring more junior students is an important expectation. 
 
--   [Policy Against Intolerance](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/policy-against-intolerance/)
--   [Principles of Employee Conduct](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/principles-of-employee-conduct/)
--   [Resolution in Support of Pluralism](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/resolution-in-support-of-pluralism/)
--   [Non-Discrimination and Harassment Policy](https://www.umassp.edu/sites/umassp.edu/files/content/T16-040-Non%20Discrimination%20and%20Harassment%20Policy.pdf)
--   [Statement of Affirmative Action and Equal Opportunity](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-of-affirmative-action-and-equal-opportun/)
--   [Statement on Cultural Diversity and Inclusion](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-on-cultural-diversity-and-inclusion/)
--   [Statement on Gender Discrimination](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-on-gender-discrimination/)
--   [Bully, Harassment and Violence](https://www.umassd.edu/corsairscare/bullying-harassment-and-violence/)
--   [Student Conduct Policies and Procedures](https://www.umassd.edu/corsairscare/bullying-harassment-and-violence/)
--   [Sexual Harassment Policy](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/sexual-harassment-policy/)
--   [Title IX and Sexual Assault/Harassment](https://www.umassd.edu/hr/diversity/compliance-and-oversight/title-ix-and-sexual-assaultharassment/)
+## Reporting
 
-## License and attribution
+In the unlikely event that you are being harassed by a member of the lab, or for that matter, anyone else at the university, or you notice that someone else is being harassed, or have any other concerns, please contact [Dr. Smith](mailto:ssmith@cop.ufl.edu. If you do not wish to involve Dr. Smith, please contact [Dr. Rich Segal](mailto:segal@cop.ufl.edu) and/or the [Associate Dean for Research at COP](mailto:jatinderklamba@ufl.edu). We will respond as promptly as we can.
 
-This anti-harassment policy is based on the [example policy created by the Geek Feminism community](https://geekfeminism.wikia.org/wiki/Community_anti-harassment). It has also been written to fall within the [SMAST Code of Conduct and Diversity Statement](https://www.umassd.edu/media/umassdartmouth/smast/lab-pdf-files/SMAST---Code-of-conduct-and-diversitystatement_2.25.20-(1).docx), and has been reviewed by the SMAST Dean's office and UMass Dartmouth Departments of Human Resources and Office of Diversity Equity and Inclusion.
--->
+Lab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Florida policies and/or the laws of the stateshould seek assistance from a supervisor or an HR representative. 
+
+**Confidentiality:** Please remember that by way of his position at the university, Dr. Smith is mandated to report under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr. Smith, but please keep this in mind when doing so. Dr. Smith will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. More information on reporting can be found at the [UF Title IX Reporting website](https://titleix.ufl.edu/report/). 

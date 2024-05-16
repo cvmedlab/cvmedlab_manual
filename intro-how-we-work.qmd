@@ -2,7 +2,7 @@
 bibliography: bibliography.bib
 ---
 
-# Introduction {#intro}
+# Introduction {#sec-intro}
 
 We do rigorous quantitative and epidemiologic science to support decision-making for cardiovascular disease treatment and prevention. To the extent possible, we conduct our work using Open Data Science principles, emphasizing scientific excellence (*not perfection*) that is transparent, reproducible, collaborative, and ethical. We aim to make our methods and results available and support ongoing learning.
 
@@ -67,7 +67,7 @@ It is useful to have standard ways of sharing things. These don't have to be fol
 
 Taking a project-based approach to organizing your work makes it easier to share and solicit feedback from others, as things tend to be self-contained. Try to keep only 1 working instance of material, and use some form of version control to facilitate this (see recommendations in the paper [@wilson_good_2017] linked above).
 
-Project management tools in Github are a good way to record and document questions on analyses, particularly if you're working in [R](https://cran.r-project.org/) and/or with analytic datasets that can be posted publicly. Use 'Issues' on github repositories for project-related tasks and problems. Unfortunately, that doesn't work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Dropbox (or Teams/Sharepoint) for each project to record this history, much like you would a lab notebook.
+Project management tools in Github are a good way to record and document questions on analyses, particularly if you're working in [R](https://cran.r-project.org/) and/or with analytic datasets that can be posted publicly. Use 'Issues' on github repositories for project-related tasks and problems. Unfortunately, that doesn't work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Dropbox (or Teams/Sharepoint) for each project to record this history, much like you would a lab notebook. Ideally, use the CVmedLab Dropbox folder for your project, and keep current versions of your documents there, as well as final versions of submitted materials. 
 
 ### Code
 
@@ -77,7 +77,7 @@ Code can be shared in the virtual machines, or alternatively through Teams, Drop
 
 Manuscripts and similar text documents can be created/shared in [Quarto](https://quarto.org/)/R Markdown, if you're particularly motivated, or alternatively, in Dropbox or Teams. Quarto/R Markdown offer the advantage of being easily/quickly reproducible any time the underlying data change (e.g., w/o having to retype all the particular data points, re-do Tables, etc..). Dropbox allows for collaborative writing, and has the advantage of there only ever being one version (as opposed to files that are sent around via email). Teams/Sharepoint is also acceptable. Email is the least preferred approach for within-team collaboration, and should really be reserved (if needed) for getting comments from collaborators outside of our team. Word documents should always have your last name as the first part of the file name (please no "mythesis.doc" - these invariably get lost in the shuffle).
 
-We maintain a lab Dropbox, as well as Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and advertised on Twitter by the [\@UFCoDES](https://twitter.com/UFCoDES/) and posted on the [CVmedLab](https://cvmedlab.org) News section.
+We maintain a lab Dropbox, as well as Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and posted on the [CVmedLab](https://cvmedlab.org) News section. The departmental/CoDES twitter account will also share publications, if you let them know about new pubs.
 
 ## Shared lab resources
 
@@ -87,7 +87,7 @@ Where to find shared resources:
 
 -   GitHub: [CVmedLab](https://github.com/cvmedlab) is the organizational GitHub account for the lab
 
--   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see section \ref{#sec-coding} for other useful resources
+-   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see section @sec-coding for other useful resources
 
 -   Website: Take a look at the lab website, most of its information is duplicated in one of the above resources: <http://www.cvmedlab.org/>
 

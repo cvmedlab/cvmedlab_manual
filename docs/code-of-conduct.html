@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -69,11 +77,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code-of-conduct.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -81,123 +94,141 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">CVmedLab Manual</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/cvmedlab/cvmedlab_manual" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./CVmedLab-Manual.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://github.com/cvmedlab/cvmedlab_manual" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="./CVmedLab-Manual.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome!</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome!</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro-how-we-work.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./intro-how-we-work.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./culture-philosophy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Lab culture and philosophy</span></a>
+  <a href="./culture-philosophy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Lab culture and philosophy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code-of-conduct.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></a>
+  <a href="./code-of-conduct.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Onboarding</span></a>
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./expectations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Expectations</span></a>
+  <a href="./expectations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Expectations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./offboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Offboarding</span></a>
+  <a href="./offboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./funding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Funding</span></a>
+  <a href="./funding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Funding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./communication.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Communication</span></a>
+  <a href="./communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Communication</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./academics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Academics</span></a>
+  <a href="./academics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Academics</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./courses.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Courses</span></a>
+  <a href="./courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Courses</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conferences.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Abstracts and Conferences</span></a>
+  <a href="./conferences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Abstracts and Conferences</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./papers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Papers</span></a>
+  <a href="./papers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Papers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./computing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Computing</span></a>
+  <a href="./computing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Computing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Data Resources</span></a>
+  <a href="./data_resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Data Resources</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./coding_resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Coding Resources</span></a>
+  <a href="./coding_resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Coding Resources</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#short-version" id="toc-short-version" class="nav-link active" data-scroll-target="#short-version"><span class="toc-section-number">4.1</span>  Short version</a></li>
-  <li><a href="#longer-version" id="toc-longer-version" class="nav-link" data-scroll-target="#longer-version"><span class="toc-section-number">4.2</span>  Longer version</a></li>
+  <li><a href="#short-version" id="toc-short-version" class="nav-link active" data-scroll-target="#short-version"><span class="header-section-number">4.1</span> Short version</a></li>
+  <li><a href="#longer-version" id="toc-longer-version" class="nav-link" data-scroll-target="#longer-version"><span class="header-section-number">4.2</span> Longer version</a></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting"><span class="header-section-number">4.3</span> Reporting</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cvmedlab/cvmedlab_manual/edit/main/code-of-conduct.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cvmedlab/cvmedlab_manual/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/cvmedlab/cvmedlab_manual/edit/main/code-of-conduct.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cvmedlab/cvmedlab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-code" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></span></h1>
+<h1 class="title"><span id="sec-code" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Code of Conduct</span></span></h1>
 </div>
 
 
@@ -210,110 +241,56 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<div class="callout-caution callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Work in progress
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This section is still a work in progress and not expected to make much sense at this stage.</p>
-</div>
-</div>
+
 <blockquote class="blockquote">
 <p><strong>Code of Conduct</strong><br>
 a set of basic ground rules that participants (in our lab) are expected to follow.</p>
 </blockquote>
 <p>The goal of having a code of conduct is to create an open and inclusive space for our work that helps us achieve our collective goals. Along with our lab culture/philosophy, it also provides a benchmark for self-evaluation and helps better define our identity as a community.</p>
 <p><strong>We expect all lab members to adhere to the policies and guidelines outlined here.</strong></p>
-<p>Additional information and resources can be found in the <a href="https://regulations.ufl.edu/wp-content/uploads/2021/12/4-040_2021-12-06.pdf">UF Student Conduct Code and Honor Code</a> (fair warning, it’s long, but does have some important stuff in there).</p>
-<p>(https://sccr.dso.ufl.edu/process/student-conduct-code/).</p>
+<p>Additional information and resources can be found in the <a href="https://policy.ufl.edu/regulation/4-040/">UF Student Conduct Code and Honor Code</a> (fair warning, it’s long, but does have some important stuff in there).</p>
 <section id="short-version" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="short-version"><span class="header-section-number">4.1</span> Short version</h2>
-<p>The CVmedLab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, or religion. We do not tolerate harassment of participants in any form.</p>
+<p>The CVmedLab is dedicated to providing a harassment-free experience for everyone, regardless of age, race, or religion, sex, gender identity and expression, sexual orientation, disability, physical appearance, and so on. We do not tolerate harassment of members in any form. Everyone’s here to learn and hopefully succeed, and everyone’s worthy of respect.</p>
 <p>This code of conduct applies to all lab spaces and interactions, including group and individual meetings (face to face and remote), workshops, social events, email correspondence, and web channels and code repositories, both online and off. Anyone who violates this code of conduct may be sanctioned and referred to the university’s academic policies.</p>
 </section>
 <section id="longer-version" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="longer-version"><span class="header-section-number">4.2</span> Longer version</h2>
-<p>To do</p>
-<!--
-The Fay lab is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of group members or others in our larger communities in any form. Bullying is unwanted, aggressive behavior that involves a real or perceived power imbalance. The [University of Massachusetts Dartmouth's Equal Opportunity and Anti-Harassment policies, complaint procedures and form](https://www.umassd.edu/media/umassdartmouth/eeo/pdfs/Complaint_Procedures_and_Form_Revised_September_2017.pdf) provides definitions and examples of harassment and sexual harassment.
-
-This code of conduct applies to all Fay lab spaces, including group and individual meetings (face to face and remote), workshops, social get togethers, email correspondence, and web channels and code repositories, both online and off. Anyone who violates this code of conduct may be sanctioned and referred to the School's and university's academic policies.
-
-Some Fay lab spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
-
-Harassment includes:
-
--   Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion.\
--   Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
--   Deliberate misgendering or use of 'dead' or rejected names.
--   Gratuitous or off-topic sexual images or behaviour in spaces where they're not appropriate.
--   Physical contact and simulated physical contact (eg, textual descriptions like "*hug*" or "*backrub*") without consent or after a request to stop.
--   Threats of violence.
--   Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.
--   Deliberate intimidation.
--   Stalking or following.
--   Harassing photography or recording, including logging online activity for harassment purposes.
--   Sustained disruption of discussion.
--   Unwelcome sexual attention.
--   Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
--   Continued one-on-one communication after requests to cease.
--   Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse.
--   Publication of non-harassing private communication.
-
-The Fay lab prioritizes marginalized people's safety over privileged people's comfort. The PI (Gavin Fay) reserves the right not to act on complaints regarding:
-
--   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
--   Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."
--   Communicating in a 'tone' you don't find congenial
--   Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
-
-### Reporting
-
-If you are being harassed by a member of the Fay lab, notice that someone else is being harassed, or have any other concerns, please contact the PI, Dr. Gavin Fay, at [gfay\@umassd.edu](mailto:gfay@umassd.edu). If you do not wish to contact Dr. Fay, please contact Department Chair Dr. Steve Cadrin [scadrin\@umassd.edu](mailto:scadrin@umassd.edu) and/or SMAST Assistant Dean Mike Marino [mmarino\@umassd.edu](mailto:mmarino@umassd.edu). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
-
-Lab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Massachusetts' policies and/or the laws of the Commonwealth of Massachusetts' should seek assistance from a supervisor or an HR representative. [Information about the University of Massachusetts Dartmouth's Equal Opportunity and Anti-Harassment policies, complaint procedures and form](https://www.umassd.edu/media/umassdartmouth/eeo/pdfs/Complaint_Procedures_and_Form_Revised_September_2017.pdf).
-
-**Confidentiality:** Please remember that by way of his position at the university, Dr. Fay is a mandated reporter under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr. Fay, but please keep this in mind when doing so. Gavin will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. If you would prefer to discuss incidents of harassment that fall under Title IX with a confidential source, you can contact [David Gomes, UMass Dartmouth Director of Diversity and Inclusion](mailto:david.gomes.eeo@umassd.edu).
-
-This code of conduct applies to Fay lab spaces, but if you are being harassed by a member of the Fay lab or another member of the SMAST community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Fay lab members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Fay lab based on their past behavior, including behavior outside Fay lab spaces and behavior towards people who are not in the Fay lab. The [University Counseling Center](http://www.umassd.edu/counseling/) provides a range of services to help students develop improved coping skills to address emotional, interpersonal and academic concerns.
-
-To protect our team members from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
-
-The above caveats noted, we will respect confidentiality requests for the purpose of protecting victims of abuse when possible. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of the Fay lab members or the general public. We will not name harassment victims without their affirmative consent.
-
-### Consequences
-
-Participants asked to stop any harassing behavior are expected to comply immediately.
-
-If a participant engages in harassing behavior, Dr. Fay may take any action they deem appropriate, which includes referral to the Department Chair and Dean's Office under the SMAST policy, and also including expulsion from all Fay lab spaces.
-
-### Additional resources
-
-Other [University of Massachusetts Board of Trustees and University documents](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/):
-
--   [Policy Against Intolerance](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/policy-against-intolerance/)
--   [Principles of Employee Conduct](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/principles-of-employee-conduct/)
--   [Resolution in Support of Pluralism](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/resolution-in-support-of-pluralism/)
--   [Non-Discrimination and Harassment Policy](https://www.umassp.edu/sites/umassp.edu/files/content/T16-040-Non%20Discrimination%20and%20Harassment%20Policy.pdf)
--   [Statement of Affirmative Action and Equal Opportunity](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-of-affirmative-action-and-equal-opportun/)
--   [Statement on Cultural Diversity and Inclusion](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-on-cultural-diversity-and-inclusion/)
--   [Statement on Gender Discrimination](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/statement-on-gender-discrimination/)
--   [Bully, Harassment and Violence](https://www.umassd.edu/corsairscare/bullying-harassment-and-violence/)
--   [Student Conduct Policies and Procedures](https://www.umassd.edu/corsairscare/bullying-harassment-and-violence/)
--   [Sexual Harassment Policy](https://www.umassd.edu/hr/diversity/board-of-trusteesuniversity-documents/sexual-harassment-policy/)
--   [Title IX and Sexual Assault/Harassment](https://www.umassd.edu/hr/diversity/compliance-and-oversight/title-ix-and-sexual-assaultharassment/)
-
-## License and attribution
-
-This anti-harassment policy is based on the [example policy created by the Geek Feminism community](https://geekfeminism.wikia.org/wiki/Community_anti-harassment). It has also been written to fall within the [SMAST Code of Conduct and Diversity Statement](https://www.umassd.edu/media/umassdartmouth/smast/lab-pdf-files/SMAST---Code-of-conduct-and-diversitystatement_2.25.20-(1).docx), and has been reviewed by the SMAST Dean's office and UMass Dartmouth Departments of Human Resources and Office of Diversity Equity and Inclusion.
--->
+<p>All members of the CVmedLab are expected to:</p>
+<ul>
+<li><p>Cultivate your curiosity and creativity. Engage with literature. Go to talks. Hone your interests (which can differ from others’). Develop expertise.</p></li>
+<li><p>Conduct your research with openness and integrity.</p></li>
+<li><p>Represent the lab with pride, and show respect for others; you are now an ambassador for the lab as well as a member – our reputation will be formed in part by how you interact with our colleagues.</p></li>
+<li><p>Participate in lab group functions; this means paying attention, asking questions, offering feedback, and using phones and computers only for work that is directly related to the meeting at hand.</p></li>
+<li><p>Maintain and treat all lab equipment and space with care; if we are running low on a necessary supply, if software licenses are set to expire, if computers need updating, etc., let Dr.&nbsp;Smith know. Please help to keep shared meeting spaces clean and organized.</p></li>
+<li><p>Show respect for others in the DSIT building; keep noise in the hallways to a minimum, make sure to close/lock doors, etc.</p></li>
+<li><p>Follow all guidelines for research with human participants laid out by the UF Institutional Review Board; be careful with data and ensure that data protections are maintained - we are fortunate to have access to the data we have and don’t want to jeopardize that access.</p></li>
+</ul>
+<p>Graduate students in the CVmedLab are expected to:</p>
+<ul>
+<li><p>Read through the <a href="https://labmanual.cvmedlab.org/">lab onboarding material</a>.</p></li>
+<li><p>Commit to a goal of at least five first-authored publications during your time in graduate school (including your dissertation).</p></li>
+<li><p>Seek out fellowship/grant/award proposals and apply for those for which you are a good fit. Keep in mind that providing letters of recommendation and feedback on drafts take time and effort on the part of those writing them; do not apply for opportunities for which you do not meet the requirements.</p></li>
+<li><p>Present your work at one conference per year (discuss with Dr.&nbsp;Smith funding to attend such meetings).</p></li>
+<li><p>Be familiar with and meet the deadlines and benchmarks laid out by the department and/or the COP Grad Programs office. Meeting these deadlines is your responsibility.</p></li>
+<li><p>Manage study design, data analysis, and other concrete research challenges</p></li>
+<li><p>Look for answers in the literature</p></li>
+<li><p>Look for internet resources</p></li>
+<li><p>Solicit advice from your lab mates</p></li>
+<li><p>Seek advice from Dr.&nbsp;Smith, who is always happy to discuss issues but it is in everyone’s best interest if you work on the problem yourself first</p></li>
+<li><p>If we’re still struggling, we’ll go outside of the lab for advice, but please discuss w/ Dr.&nbsp;Smith first.</p></li>
+<li><p>Share your expertise, experience, and materials with others working in the lab. There are far greater rewards for being generous with your time and knowledge than for keeping things to yourself in an attempt to prevent others from getting ahead.</p></li>
+<li><p>Share responsibility for mentoring more junior students working in the lab. As you advance in the program, mentoring more junior students is an important expectation.</p></li>
+</ul>
+</section>
+<section id="reporting" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="reporting"><span class="header-section-number">4.3</span> Reporting</h2>
+<p>In the unlikely event that you are being harassed by a member of the lab, or for that matter, anyone else at the university, or you notice that someone else is being harassed, or have any other concerns, please contact [Dr.&nbsp;Smith](mailto:ssmith@cop.ufl.edu. If you do not wish to involve Dr.&nbsp;Smith, please contact <a href="mailto:segal@cop.ufl.edu">Dr.&nbsp;Rich Segal</a> and/or the <a href="mailto:jatinderklamba@ufl.edu">Associate Dean for Research at COP</a>. We will respond as promptly as we can.</p>
+<p>Lab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Florida policies and/or the laws of the stateshould seek assistance from a supervisor or an HR representative.</p>
+<p><strong>Confidentiality:</strong> Please remember that by way of his position at the university, Dr.&nbsp;Smith is mandated to report under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr.&nbsp;Smith, but please keep this in mind when doing so. Dr.&nbsp;Smith will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. More information on reporting can be found at the <a href="https://titleix.ufl.edu/report/">UF Title IX Reporting website</a>.</p>
 
 
 </section>
@@ -346,9 +323,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -384,10 +375,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -397,8 +387,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -413,6 +412,238 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -454,12 +685,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./culture-philosophy.html" class="pagination-link">
+      <a href="./culture-philosophy.html" class="pagination-link" aria-label="Lab culture and philosophy">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Lab culture and philosophy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./onboarding.html" class="pagination-link">
+      <a href="./onboarding.html" class="pagination-link" aria-label="Onboarding">
         <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Onboarding</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -467,10 +698,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://www.cvmedlab.org/">The CVmedLab</a></div>   
-    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">
+<p><a href="https://www.cvmedlab.org/">The CVmedLab</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/cvmedlab/cvmedlab_manual/edit/main/code-of-conduct.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cvmedlab/cvmedlab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 

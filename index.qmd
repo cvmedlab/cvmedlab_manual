@@ -4,9 +4,6 @@ The focus of our work centers around studying effectiveness and safety of cardio
 
 This lab manual is intended to provide an overview for lab members and others about how we work and our expectations for our team. It is also a space to document institutional knowledge about procedures and available resources. If you have suggestions for additions or changes, please contact [Dr. Smith](mailto:ssmith@cop.ufl.edu) or, if you're already github-savvy, make a pull request 👉 [{{< fa brands github size=lg >}}](https://github.com/cvmedlab/cvmedlab_manual/).
 
-The spark for this book comes from a similar lab manual I found for [The Fay Lab](https://github.com/thefaylab/lab-manual), which itself stemmed from the [Openscapes Champions program](https://openscapes.org).
-
-<!-- May want to add wiki on how to fork/make a copy of the lab manual? similar to what Fay's group did, i.e., [Quick steps to making a copy of the lab manual and publishing it](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it)! -->
 
 ------------------------------------------------------------------------
 

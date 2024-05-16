@@ -90,35 +90,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -289,7 +260,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="intro" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></h1>
+<h1 class="title"><span id="sec-intro" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></h1>
 </div>
 
 
@@ -361,7 +332,7 @@ window.Quarto = {
 <h2 data-number="2.4" class="anchored" data-anchor-id="how-we-share-things-and-send-them-to-dr.-smith"><span class="header-section-number">2.4</span> How we share things (and send them to Dr.&nbsp;Smith)</h2>
 <p>It is useful to have standard ways of sharing things. These don’t have to be followed absolutely, but should guide most of what we’re sharing and make things easier on the team. When sending material to someone, always make sure to describe what you are sending and try to make it as easy as possible for them to help you.</p>
 <p>Taking a project-based approach to organizing your work makes it easier to share and solicit feedback from others, as things tend to be self-contained. Try to keep only 1 working instance of material, and use some form of version control to facilitate this (see recommendations in the paper <span class="citation" data-cites="wilson_good_2017">(<a href="#ref-wilson_good_2017" role="doc-biblioref">Wilson et al. 2017</a>)</span> linked above).</p>
-<p>Project management tools in Github are a good way to record and document questions on analyses, particularly if you’re working in <a href="https://cran.r-project.org/">R</a> and/or with analytic datasets that can be posted publicly. Use ‘Issues’ on github repositories for project-related tasks and problems. Unfortunately, that doesn’t work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Dropbox (or Teams/Sharepoint) for each project to record this history, much like you would a lab notebook.</p>
+<p>Project management tools in Github are a good way to record and document questions on analyses, particularly if you’re working in <a href="https://cran.r-project.org/">R</a> and/or with analytic datasets that can be posted publicly. Use ‘Issues’ on github repositories for project-related tasks and problems. Unfortunately, that doesn’t work for us in many cases due to data privacy/DUA issues with publicly posting patient-level data. Alternatively, make use of a Dropbox (or Teams/Sharepoint) for each project to record this history, much like you would a lab notebook. Ideally, use the CVmedLab Dropbox folder for your project, and keep current versions of your documents there, as well as final versions of submitted materials.</p>
 <section id="code" class="level3" data-number="2.4.1">
 <h3 data-number="2.4.1" class="anchored" data-anchor-id="code"><span class="header-section-number">2.4.1</span> Code</h3>
 <p>Code can be shared in the virtual machines, or alternatively through Teams, Dropbox, or Github repositories. For specific questions on problems, please try to create a <a href="https://reprex.tidyverse.org/">reprex</a> (minimal <strong>rep</strong>roducible <strong>ex</strong>ample) in R, or similar in SAS. Ensure that others can run and interact with the material being shared if you want help working through kinks.</p>
@@ -369,7 +340,7 @@ window.Quarto = {
 <section id="documentswriting" class="level3" data-number="2.4.2">
 <h3 data-number="2.4.2" class="anchored" data-anchor-id="documentswriting"><span class="header-section-number">2.4.2</span> Documents/Writing</h3>
 <p>Manuscripts and similar text documents can be created/shared in <a href="https://quarto.org/">Quarto</a>/R Markdown, if you’re particularly motivated, or alternatively, in Dropbox or Teams. Quarto/R Markdown offer the advantage of being easily/quickly reproducible any time the underlying data change (e.g., w/o having to retype all the particular data points, re-do Tables, etc..). Dropbox allows for collaborative writing, and has the advantage of there only ever being one version (as opposed to files that are sent around via email). Teams/Sharepoint is also acceptable. Email is the least preferred approach for within-team collaboration, and should really be reserved (if needed) for getting comments from collaborators outside of our team. Word documents should always have your last name as the first part of the file name (please no “mythesis.doc” - these invariably get lost in the shuffle).</p>
-<p>We maintain a lab Dropbox, as well as Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and advertised on Twitter by the <a href="https://twitter.com/UFCoDES/">@UFCoDES</a> and posted on the <a href="https://cvmedlab.org">CVmedLab</a> News section.</p>
+<p>We maintain a lab Dropbox, as well as Teams sharepoint folder (accessible via Teams) for lab work, presentations, etc. Please make use of these so that others in the lab can make fair use of our work. Final publications will also be linked on our website and posted on the <a href="https://cvmedlab.org">CVmedLab</a> News section. The departmental/CoDES twitter account will also share publications, if you let them know about new pubs.</p>
 </section>
 </section>
 <section id="shared-lab-resources" class="level2" data-number="2.5">
@@ -378,7 +349,7 @@ window.Quarto = {
 <ul>
 <li><p>Teams/sharepoint: You will be given access to Teams during onboarding; take a look at the General channel, which contains the lab meeting agenda/topics. You can create project-specific channels for your own projects, and add relevant lab members. Teams also offers access to sharepoint for the team, where you can store files.</p></li>
 <li><p>GitHub: <a href="https://github.com/cvmedlab">CVmedLab</a> is the organizational GitHub account for the lab</p></li>
-<li><p>lab manual: <a href="https://github.com/cvmedlab/cvmedlab_manual/">This repository</a> contains the lab manual, see section <span class="math inline">\(\ref{#sec-coding}\)</span> for other useful resources</p></li>
+<li><p>lab manual: <a href="https://github.com/cvmedlab/cvmedlab_manual/">This repository</a> contains the lab manual, see section <a href="coding_resources.html" class="quarto-xref"><span>Chapter 16</span></a> for other useful resources</p></li>
 <li><p>Website: Take a look at the lab website, most of its information is duplicated in one of the above resources: <a href="http://www.cvmedlab.org/" class="uri">http://www.cvmedlab.org/</a></p></li>
 </ul>
 </section>

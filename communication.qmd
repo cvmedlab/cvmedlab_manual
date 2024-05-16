@@ -1,10 +1,5 @@
 # Communication {#sec-communication}
 
-::: {.callout-caution}
-# Work in progress
-
-This section is still a work in progress and may not make 100% sense at this stage. 
-:::
 
 Good communication in our field is critical, both in terms of communicating with each other and other collaborators, as well as communicating our work, its reach and its limitations. 
 
@@ -77,8 +72,6 @@ Twitter is (or at least, was) a great tool for interacting with others about you
 In addition to twitter, some users prefer Mastodon, which has some similarities to Twitter, but also some significant differences. The biggest difference is that there's a lot of different iterations of Mastodon, depending on your interest. For example, [Fosstodon](https://fosstodon.org) has a lot of data science, statistics, and other data-driven researchers. 
 
 ## Other Social Media
-
-[Link to papers on social media in fisheries ]
 
 As you know, there are many social media platforms, and many (all?) of these are being used in some way for science communication. This includes but not limited to: 
 
