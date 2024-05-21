@@ -87,7 +87,7 @@ Where to find shared resources:
 
 -   GitHub: [CVmedLab](https://github.com/cvmedlab) is the organizational GitHub account for the lab
 
--   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see section @sec-coding for other useful resources
+-   lab manual: [This repository](https://github.com/cvmedlab/cvmedlab_manual/) contains the lab manual, see @sec-coding for other useful resources
 
 -   Website: Take a look at the lab website, most of its information is duplicated in one of the above resources: <http://www.cvmedlab.org/>
 

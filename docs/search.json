@@ -44,7 +44,7 @@
     "href": "intro-how-we-work.html#shared-lab-resources",
     "title": "2  Introduction",
     "section": "2.5 Shared lab resources",
-    "text": "2.5 Shared lab resources\nWhere to find shared resources:\n\nTeams/sharepoint: You will be given access to Teams during onboarding; take a look at the General channel, which contains the lab meeting agenda/topics. You can create project-specific channels for your own projects, and add relevant lab members. Teams also offers access to sharepoint for the team, where you can store files.\nGitHub: CVmedLab is the organizational GitHub account for the lab\nlab manual: This repository contains the lab manual, see section Chapter 16 for other useful resources\nWebsite: Take a look at the lab website, most of its information is duplicated in one of the above resources: http://www.cvmedlab.org/",
+    "text": "2.5 Shared lab resources\nWhere to find shared resources:\n\nTeams/sharepoint: You will be given access to Teams during onboarding; take a look at the General channel, which contains the lab meeting agenda/topics. You can create project-specific channels for your own projects, and add relevant lab members. Teams also offers access to sharepoint for the team, where you can store files.\nGitHub: CVmedLab is the organizational GitHub account for the lab\nlab manual: This repository contains the lab manual, see Chapter 16 for other useful resources\nWebsite: Take a look at the lab website, most of its information is duplicated in one of the above resources: http://www.cvmedlab.org/",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -225,7 +225,7 @@
     "href": "expectations.html",
     "title": "6  Expectations",
     "section": "",
-    "text": "Work in progress\n\n\n\nThis section is still a work in progress and not expected to make much sense at this stage.\n\n\nMore to come…",
+    "text": "7 Expectations\nEveryone has their own path in the graduate program, so we’re not looking to place undue burden on making students conform to a very particular path to your MS or PhD degree. That said, there are some expectations on lab members that we hope make things run smoothly.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
     ]
@@ -235,7 +235,7 @@
     "href": "offboarding.html",
     "title": "7  Offboarding",
     "section": "",
-    "text": "Work in progress\n\n\n\nThis section is still a work in progress and not expected to make much sense at this stage.\n\n\nStill working on this.",
+    "text": "7.1 Exit Interview\nSet up a dedicated time to meet with Dr. Smith and/or your main collaborator in the lab (if not a graduate student) to talk about your time in the lab, and to go through the below checklist to make sure these have been done. Besides the checklist, things to talk about include the best part of being in our team, whether you got the support you needed and what could we improve for mentoring and training someone in your role in the future.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
     ]
@@ -669,7 +669,7 @@
     "href": "code-of-conduct.html#reporting",
     "title": "4  Code of Conduct",
     "section": "4.3 Reporting",
-    "text": "4.3 Reporting\nIn the unlikely event that you are being harassed by a member of the lab, or for that matter, anyone else at the university, or you notice that someone else is being harassed, or have any other concerns, please contact [Dr. Smith](mailto:ssmith@cop.ufl.edu. If you do not wish to involve Dr. Smith, please contact Dr. Rich Segal and/or the Associate Dean for Research at COP. We will respond as promptly as we can.\nLab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Florida policies and/or the laws of the stateshould seek assistance from a supervisor or an HR representative.\nConfidentiality: Please remember that by way of his position at the university, Dr. Smith is mandated to report under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr. Smith, but please keep this in mind when doing so. Dr. Smith will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. More information on reporting can be found at the UF Title IX Reporting website.",
+    "text": "4.3 Reporting\nIn the unlikely event that you are being harassed by a member of the lab, or for that matter, anyone else at the university, or you notice that someone else is being harassed, or have any other concerns, please contact Dr. Smith. If you do not wish to involve Dr. Smith, please contact Dr. Rich Segal and/or the Associate Dean for Research at COP. We will respond as promptly as we can.\nLab members who believe they have been subjected to any kind of discrimination that conflicts with the University of Florida policies and/or the laws of the stateshould seek assistance from a supervisor or an HR representative.\nConfidentiality: Please remember that by way of his position at the university, Dr. Smith is mandated to report under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Dr. Smith, but please keep this in mind when doing so. Dr. Smith will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics. More information on reporting can be found at the UF Title IX Reporting website.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Code of Conduct</span>"
     ]
@@ -722,6 +722,176 @@
     "text": "13.1 General Principles\nSome general principles for drafting your manuscript:",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Papers</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#exit-interview",
+    "href": "offboarding.html#exit-interview",
+    "title": "7  Offboarding",
+    "section": "",
+    "text": "7.1.1 Checklist for students, staff, and post docs\n\nSchedule exit interview with Dr. Smith\nCome prepared to discuss your experience: what you enjoyed the most, etc\nEnsure all data is backed up on ResVault or the POP server. Ensure that all data and critical code are documented; in particular, make sure there is clear documentation on what data/code needs to be reserved for pending papers. Remove all unneeded data/code from ResVault and/or POP server.\nReturn any university equipment (laptop, desktop, computer accessories, desk chairs, etc)\nDevelop a clear plan for publishing any remaining papers/reports/documentation\nReturn borrowed things to Dr. Smith (books, etc..)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#project-documentation",
+    "href": "offboarding.html#project-documentation",
+    "title": "7  Offboarding",
+    "section": "7.2 Project Documentation",
+    "text": "7.2 Project Documentation\nProject work should be hosted either in ResVault, the POP server, or another approved, backed-up server (e.g., COP server, CVmedLab dropbox folder).\nEach project should have an easily found README text file that provides information for others so they can navigate and use your work, and give contact information for authors (and any data creators/use restrictions if proprietary data). Ideally, the README should also include links to publications and presentations from the work.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#publications-and-presentations",
+    "href": "offboarding.html#publications-and-presentations",
+    "title": "7  Offboarding",
+    "section": "7.3 Publications and Presentations",
+    "text": "7.3 Publications and Presentations\nEnsure that publications and presentations from your projects are archived in the appropriate folder on the CVmedLab dropbox folder.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#data",
+    "href": "offboarding.html#data",
+    "title": "7  Offboarding",
+    "section": "7.4 Data",
+    "text": "7.4 Data\nData used in support of your projects should be:\n\nSaved in appropriate, non-proprietary format with accompanying metadata\nHoused in an approved, backed-up location: ResVault, POP server, or other approved place (e.g., CVmedLab dropbox or COP server)\nLinked and briefly described in the project README.\n\nWhen data are no longer needed, it is imperative we minimize unnecessary data storage. Once a paper is published, and the project is not expected to generate any further publications/presentations, talk with Dr. Smith about whether the data can be destroyed or minimized.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#code",
+    "href": "offboarding.html#code",
+    "title": "7  Offboarding",
+    "section": "7.5 Code",
+    "text": "7.5 Code\nCode used or developed for the project should be complete and well-documented, including information in a README about what each file does and workflow to run the code, and saved on the same server as existing data. If the project is completed, code should be backed up and stored on the CVmedLab dropbox, and the virtual machine should be wound down. Make sure to include Dr. Smith in discussions about closing virtual machines.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#timelines-for-publications",
+    "href": "offboarding.html#timelines-for-publications",
+    "title": "7  Offboarding",
+    "section": "7.6 Timelines for publications",
+    "text": "7.6 Timelines for publications\nScience is not finished until it has been communicated. Hopefully, you will publish your results in the peer-reviewed literature so that others can learn and build from your work. During your exit interview, make a plan with Dr. Smith for remaining publications, including a timeline for submission. This is especially critical for dissertation publications.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#turning-in-equipment",
+    "href": "offboarding.html#turning-in-equipment",
+    "title": "7  Offboarding",
+    "section": "7.7 Turning in equipment",
+    "text": "7.7 Turning in equipment\nEnsure any lab equipment (e.g. computer and peripherals) you have been using has been returned to the lab, office furniture is present and accounted for. Make sure any problems with equipment are documented and that Dr. Smith has been made aware of them.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#maintaining-uf-access",
+    "href": "offboarding.html#maintaining-uf-access",
+    "title": "7  Offboarding",
+    "section": "7.8 Maintaining UF access",
+    "text": "7.8 Maintaining UF access\nTypically, Gatorlink access is available for a short period (a few weeks to months) after graduation; however, the reality is that not all work may be totally complete by the time you graduate. So, if more time is needed to access data, etc. talk with Dr. Smith about extending access. In some cases, courtesy appointments may be made for alumni to continue a formal relationship with UF that allows for maintenance of access to your gatorlink account for a defined period of time.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#working-hours",
+    "href": "expectations.html#working-hours",
+    "title": "6  Expectations",
+    "section": "7.2 Working hours",
+    "text": "7.2 Working hours\nAs in most of academia, the lab generally does not hold people to working a fixed schedule, or to be in the office on a certain schedule. We are all very capable of setting a working schedule that is the right fit for us, and it is likely that what this ‘fit’ is will change over the course of the time you are in the lab and as every day life happens. Depending on the nature of your appointment, there may be specific hours that will need to be worked and you should work with Dr. Smith to outline these.\nThough Dr. Smith often sends emails on evenings or on weekends (or whenever he can get around to his inbox), he does not expect that people in the lab are available at these times. Lab members should also not expect others to be available during clear off hours.\nGraduate students are generally funded on annual research assistantship (RA) stipends, amounting to ~20 hrs of work per week. Typically, RAs are being paid from a research grant and in most cases, training to do that research is considered part of the job, so things like courses and additional time to read/learn methods, software, etc. are part of those work hours.\nWe do not expect team members to work excessively beyond the expected 20 hours per week on the RA work. That said, there are times in which a particular deliverable requires some additional work, and other times, where work might be lighter. Put another way, deadlines might require working &gt;20 hours in a given week; however, this should generally be the exception, not the rule, and you should average something fairly close to 20 hours/week in hours worked over the semester. If you are consistently working more hours than this, talk with Dr. Smith about your workload and expectations. As noted above, we do not enforce a particular working hours schedule because figuring out how to get work done on a schedule that works for you is an important part of the learning process during your graduate work.\nAlthough there are limited expectations on exactly when you need to be in the office, we want to stress that there is value to interacting with others as part of your work and, consequently, you are expected to be available during normal working hours for at least some of the time during the week. To the extent possible, we also expect you to try to join lab meetings/functions in person. That said, we recognize that there will occasionally be times where there is a need to work more to meet a deadline, but this should be the exception - an expectation of overwork is not to be normalized.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#email",
+    "href": "expectations.html#email",
+    "title": "6  Expectations",
+    "section": "7.3 Email",
+    "text": "7.3 Email\nIn the lab, we communicate via email often. You should therefore check your email at least once a day during the normal work week. We also make use of Dropbox and Google Docs (and occasionally Microsoft Teams). Note that being available does not mean that you are available 24/7 - this is not expected. We do not (and you should not) expect responses to emails after regular business hours on weekdays, or on weekends. However, because we recognize that lab members should be able to create a working schedule that is right for them, lab members, including Dr. Smith, certainly may communicate during these times.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#attendance-at-regularly-scheduled-events",
+    "href": "expectations.html#attendance-at-regularly-scheduled-events",
+    "title": "6  Expectations",
+    "section": "7.4 Attendance at regularly scheduled events",
+    "text": "7.4 Attendance at regularly scheduled events\nIn-person attendance is expected at:\n\nAll departmental seminars\nAll CICMD seminars\nBi-weekly lab meetings\nIndividual meetings with Dr. Smith to discuss and work on your research (these can be zoom, if coordinated in advance)\nAny project meetings (these can be zoom, if coordinated in advance)\nOral qualifying and dissertation defenses of fellow lab members",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#engagement",
+    "href": "expectations.html#engagement",
+    "title": "6  Expectations",
+    "section": "7.5 Engagement",
+    "text": "7.5 Engagement\nWe share our learning and time with others beyond our lab, knowing that this builds community and ultimately improves both the quality and impact of our science. This doesn’t mean individuals do everything, however. We take on leadership roles within POP and the university, are supportive of others in our community during their milestones, actively participate in college, departmental or center events (e.g. the COP research showcase, CoDES or CICMD seminars, etc), and perform outreach. Ask others in the lab about activities they are part of, and work with Dr. Smith when crafting your IDP to identify engagement opportunities that meshes well with your goals.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#expectations-for-the-pi",
+    "href": "expectations.html#expectations-for-the-pi",
+    "title": "6  Expectations",
+    "section": "7.6 Expectations for the PI",
+    "text": "7.6 Expectations for the PI\nDr. Smith (as PI) will, at a minimum, provide:\n\nTechnical support for analysis (e.g., access to computing, training on techniques)\nPositive feedback & constructive criticism on work\nProfessional career support\nSupport for non-technical aspects of making career progress\nRegular meetings (typically every two weeks) to discuss work & maintain progress on goals\nProvide clear and honest appraisal of your funding situation",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#graduate-students",
+    "href": "expectations.html#graduate-students",
+    "title": "6  Expectations",
+    "section": "7.7 Graduate students",
+    "text": "7.7 Graduate students\nYou are responsible for your degree. This means you need to stay on top of program and university deadlines, requirements, etc.\nBefore registering for each semester, you are required to meet with your advisor (Dr. Smith) to review your progression in the program and your planned coursework and other activities for the forthcoming semester.\nWork with Dr. Smith when crafting and revisiting your IDPs and planned coursework during your academic program. Look beyond those offered in POP to include elsewhere at COM, PHHP, CLAS and other colleges at UF. Suggested coursework, including non-required coursework options are discussed in Chapter 11.\nGrad students should schedule regular individual meetings with Dr. Smith throughout the year. Typically during the fall and spring semesters these will take place every two weeks, although there may be times when more regular meetings are needed. Meetings are a chance for you to get focused time with Dr. Smith to discuss and work on your research. Thus they are your time, not Dr. Smith’s. Come with an agenda with a list of things that you want to accomplish and work on during that time. During the summer, lab members, including Dr. Smith, usually take some time away, so meetings may be scheduled less frequently.\nWe share our research at local, national, and international meetings, and publish our findings in the scientific literature. Dr. Smith strives to provide financial support for grad students to attend at least one major conference per year. You should expect to give a presentation (a poster or a talk) on your work at these.\n\n7.7.1 Funding\nDr. Smith does not typically accept students into the lab without being able to guarantee at least 3 years of full funding. Regardless of existing funding, students are encouraged to seek and apply for extramural funding to support their work. This includes scholarships and fellowships to pay for salary, but also smaller grants for travel, workshop attendance, or research costs. There are many opportunities out there, particularly for students. Some resources are outlined in Chapter 8.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#individual-development-plans",
+    "href": "expectations.html#individual-development-plans",
+    "title": "6  Expectations",
+    "section": "7.1 Individual Development Plans",
+    "text": "7.1 Individual Development Plans\nIndividual development plans (IDPs) are expected of all individuals in the lab. This applies to Dr. Smith, to staff, and to trainees. Each member should first draft an IDP, using resources provided by the COP as part of your UF onboarding. Dr. Smith will work with each of you to further refine your IDP, which will serve as a roadmap to guide your time in the CVmedLab as it pertains to short, medium, and long-term goals. This is a useful planning document that assists in aligning expectations and work. Graduate students will revisit their IDPs during an individual meeting with Dr. Smith at the end of each spring semester. Other lab members will revisit these at appropriate time scales (e.g. every 6-12 months).\nIn addition, it is useful to have broad (for all lab members) and specific (i.e., grad students, research staff, etc.) expectations of our roles clarified. These are outlined below.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#postdoctoral-researchers-andor-research-faculty",
+    "href": "expectations.html#postdoctoral-researchers-andor-research-faculty",
+    "title": "6  Expectations",
+    "section": "7.8 Postdoctoral researchers and/or Research faculty",
+    "text": "7.8 Postdoctoral researchers and/or Research faculty\nPostdocs and research faculty are semi-independent researchers and likely will have significant collaboration with researchers at other institutions as part of their research and position.\nIn general, these individuals are expected to:\n\nBe present and involved in lab meetings, workshops, campus seminars, and conferences.\nProvide mentorship, technical support, and assistance to other lab members\nCommunicate both successes and sticking points on a regular basis with the PI\nWork independently and collaboratively\nParticipate in professional development opportunities\nLead and assist in designated research projects\nDevelop and submit proposals to fund future research",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "expectations.html#research-staff",
+    "href": "expectations.html#research-staff",
+    "title": "6  Expectations",
+    "section": "7.9 Research staff",
+    "text": "7.9 Research staff\nMuch like post-docs, research staff operate as independent and collaborative researchers on assigned projects. Meetings may be more frequent than those with others in the lab. Weekly meetings should have clear agendas, and can often be used as collaborative working time to make progress on specific tasks.\nIn general, staff are expected to:\n\nBe present and involved in lab meetings, workshops, campus seminars, and conferences\nProvide technical support and assistance to other lab members\nCommunicate both successes and sticking points on a regular basis with PI\nWork independently and collaboratively\nLead and assist in designated research projects\nParticipate in professional development opportunities (i.e., workshops, conferences, submitting previous position manuscripts [without detracting from new position])\nProduce expected output from assigned grants\nBe flexible! Additional projects may be assigned to give additional funding for your position\nServe as a role model and go-to resource for other members of the lab\n\nResearch staff positions may be somewhat flexible in scope. For example, the position may include some lab management, leadership, and communication responsibilities. Exact set of responsibilities and duties will be clearly defined in your position description and expectations agreed on in your work plan.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expectations</span>"
     ]
   }
 ]
