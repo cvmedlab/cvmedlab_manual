@@ -21,8 +21,7 @@ All students are encouraged to apply for external funding through graduate schol
 
 -   [NIH F31](https://researchtraining.nih.gov/programs/fellowships/F31) pre-doctoral grants `r bs_button("U.S. citizens only", button_type = "default", button_size = "small")`
 
--   [NIH F31 diversity supplement](https://researchtraining.nih.gov/programs/fellowships/F31-diversity) pre-doctoral grants `r bs_button("U.S. citizens only", button_type = "default", button_size = "small")`
-
+<!-- -   [NIH F31 diversity supplement](https://researchtraining.nih.gov/programs/fellowships/F31-diversity) pre-doctoral grants `r bs_button("U.S. citizens only", button_type = "default", button_size = "small")` -->
 -   [American Heart Association pre-doctoral fellowships](https://professional.heart.org/en/research-programs/application-information/predoctoral-fellowship)
 
 -   [PhRMA Foundation pre-doctoral fellowships](https://www.phrmafoundation.org/awards/pre-doctoral-fellowship-awards/) -- see especially the [Health Outcomes-focused fellowship](https://www.phrmafoundation.org/awards/pre-doctoral-fellowship-awards/value-assessment-health-outcomes/)
